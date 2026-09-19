@@ -1,0 +1,10 @@
+# Exclusion patterns for skillexport.py, matched with fnmatch against each file or directory name.
+# A trailing slash means the pattern only matches directories.
+.DS_Store
+__pycache__/
+*.pyc
+_to_delete/
+.git/
+node_modules/
+.venv/
+venv/

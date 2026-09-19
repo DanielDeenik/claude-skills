@@ -1,0 +1,54 @@
+{
+ "label": "mac-other",
+ "captured_utc": "2026-09-19T07:59:12Z",
+ "root_name": "a. Consulting - SimCorp",
+ "rows": [
+  {
+   "dest": "mac-other/overnight-dev",
+   "origin": "ii. Manuals & Documentation/overnight-dev",
+   "kind": "dir",
+   "files": 9,
+   "bytes": 70898,
+   "skill_dirs_at_source": 1
+  },
+  {
+   "dest": "mac-other/website-dev-team.skill",
+   "origin": "ii. Manuals & Documentation/website-dev-team.skill",
+   "kind": "file",
+   "files": 1,
+   "bytes": 25784,
+   "skill_dirs_at_source": 0
+  },
+  {
+   "dest": "mac-other/skill-upgrade",
+   "origin": "vi. Config & Architecture/Schema Reference/skill-upgrade",
+   "kind": "dir",
+   "files": 4,
+   "bytes": 46765,
+   "skill_dirs_at_source": 2
+  }
+ ],
+ "part": "mac-other",
+ "file_count": 14,
+ "bytes": 143447,
+ "excluded": [],
+ "broken_symlinks": [],
+ "dereferenced_symlinks": [],
+ "errors": [],
+ "source_mtimes": {
+  "mac-other/overnight-dev/SKILL.md": "2026-04-06T05:38:46Z",
+  "mac-other/overnight-dev/references/briefing-template.md": "2026-04-06T05:42:44Z",
+  "mac-other/overnight-dev/references/context-assembler.md": "2026-04-06T05:40:49Z",
+  "mac-other/overnight-dev/references/implementer-prompt.md": "2026-04-06T05:39:35Z",
+  "mac-other/overnight-dev/references/memory-schema.md": "2026-04-06T05:41:36Z",
+  "mac-other/overnight-dev/references/notion-schema.md": "2026-04-06T05:43:08Z",
+  "mac-other/overnight-dev/references/persona-generator.md": "2026-04-06T05:42:11Z",
+  "mac-other/overnight-dev/references/quality-reviewer-prompt.md": "2026-04-06T05:40:13Z",
+  "mac-other/overnight-dev/references/spec-reviewer-prompt.md": "2026-04-06T05:39:52Z",
+  "mac-other/website-dev-team.skill": "2026-04-06T12:59:04Z",
+  "mac-other/skill-upgrade/docs/2026-04-10-mirofish-memory-spine-design.md": "2026-04-10T13:37:35Z",
+  "mac-other/skill-upgrade/simcorp-extraction/SKILL.md": "2026-04-10T11:16:26Z",
+  "mac-other/skill-upgrade/simcorp-extraction/references/extraction-architecture.md": "2026-04-10T11:16:30Z",
+  "mac-other/skill-upgrade/simcorp-super-agent/SKILL.md": "2026-04-10T11:15:29Z"
+ }
+}

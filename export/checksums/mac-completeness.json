@@ -1,0 +1,15 @@
+{
+ "root_name": "a. Consulting - SimCorp",
+ "checked_utc": "2026-09-19T08:00:04Z",
+ "unlisted_skill_items": [],
+ "excluded_patterns": [
+  ".DS_Store",
+  "__pycache__/",
+  "*.pyc",
+  "_to_delete/",
+  ".git/",
+  "node_modules/",
+  ".venv/",
+  "venv/"
+ ]
+}

@@ -1,0 +1,9 @@
+# Mac skill sources for skillexport.py mac. Columns are tab separated.
+# dest (inside the repo)	source (relative to --root)	kind (dir or file)
+mac-superagent/skills	ix. SimCorp SuperAgent/skills	dir
+mac-superagent/packages/mirofish-research-agent.skill	ix. SimCorp SuperAgent/mirofish-research-agent.skill	file
+mac-superagent/packages/simcorp-super-agent.skill	ix. SimCorp SuperAgent/simcorp-super-agent.skill	file
+mac-other/overnight-dev	ii. Manuals & Documentation/overnight-dev	dir
+mac-other/website-dev-team.skill	ii. Manuals & Documentation/website-dev-team.skill	file
+mac-other/skill-upgrade	vi. Config & Architecture/Schema Reference/skill-upgrade	dir
+third-party/claude-skills-package	ii. Manuals & Documentation/claude-skills-package	dir

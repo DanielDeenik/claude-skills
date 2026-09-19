@@ -1,0 +1,973 @@
+{
+ "label": "Skills synced to the Claude account",
+ "captured_utc": "2026-09-19T07:56:10Z",
+ "rows": [
+  {
+   "dest": "claude-account/skills",
+   "origin": "Claude account skill sync",
+   "kind": "dir"
+  }
+ ],
+ "manifest_lastUpdated": 1789804301691,
+ "exclude_sources": [
+  "anthropic",
+  "anthropic-example"
+ ],
+ "left_out_by_source": [
+  {
+   "name": "built-in-browser",
+   "source": "anthropic-example"
+  },
+  {
+   "name": "chrome-browser",
+   "source": "anthropic-example"
+  },
+  {
+   "name": "computer-use",
+   "source": "anthropic-example"
+  },
+  {
+   "name": "deep-research",
+   "source": "anthropic-example"
+  },
+  {
+   "name": "docs",
+   "source": "anthropic-example"
+  },
+  {
+   "name": "docx",
+   "source": "anthropic"
+  },
+  {
+   "name": "import-memory",
+   "source": "anthropic-example"
+  },
+  {
+   "name": "mcp-builder",
+   "source": "anthropic-example"
+  },
+  {
+   "name": "morning",
+   "source": "anthropic-example"
+  },
+  {
+   "name": "pdf",
+   "source": "anthropic"
+  },
+  {
+   "name": "pptx",
+   "source": "anthropic"
+  },
+  {
+   "name": "skill-creator",
+   "source": "anthropic-example"
+  },
+  {
+   "name": "xlsx",
+   "source": "anthropic"
+  }
+ ],
+ "unlisted_folders": [],
+ "nonempty_staging_dirs": [],
+ "skills": [
+  {
+   "name": "ab-test-analysis",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:38:47.116881Z",
+   "skillId": "skill_01FPeME6QbEt1jV3u2EmzKhg",
+   "files": 1,
+   "bytes": 3587
+  },
+  {
+   "name": "analyze-feature-requests",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:39:17.500404Z",
+   "skillId": "skill_01A8iKRvCJY7wA1biEWCSh6T",
+   "files": 1,
+   "bytes": 2274
+  },
+  {
+   "name": "beachhead-segment",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:39:04.947001Z",
+   "skillId": "skill_01ELvQp5Bxt5ZDWAvnNn8US6",
+   "files": 1,
+   "bytes": 5876
+  },
+  {
+   "name": "brainstorm-experiments-existing",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:39:18.242595Z",
+   "skillId": "skill_01Rt3MU5cwJeWP2bDYuKhdqD",
+   "files": 1,
+   "bytes": 2408
+  },
+  {
+   "name": "brainstorm-experiments-new",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:39:19.216398Z",
+   "skillId": "skill_01N16ht2Zuxj2teXjP6cUrqN",
+   "files": 1,
+   "bytes": 2538
+  },
+  {
+   "name": "brainstorm-ideas-existing",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:39:19.819020Z",
+   "skillId": "skill_01PwFD9pr2DPAZoJ5tYoRJKa",
+   "files": 1,
+   "bytes": 2951
+  },
+  {
+   "name": "brainstorm-ideas-new",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:39:20.311506Z",
+   "skillId": "skill_018gfZTYzqQVQXe41xY8yGu6",
+   "files": 1,
+   "bytes": 2437
+  },
+  {
+   "name": "brainstorm-okrs",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:38:51.440676Z",
+   "skillId": "skill_01AQD75bRRF9JS3xanFoi8kx",
+   "files": 1,
+   "bytes": 4341
+  },
+  {
+   "name": "cash-recon",
+   "source": "plugin",
+   "updatedAt": "2026-09-09T18:54:18.113717Z",
+   "skillId": "skill_019iWfYp77Z52P5WE5v77xa5",
+   "files": 9,
+   "bytes": 48912
+  },
+  {
+   "name": "chief-of-staff",
+   "source": "custom",
+   "updatedAt": "2026-05-30T01:01:14.440373Z",
+   "skillId": "skill_01AXQYhgWM77VocffHC821vP",
+   "files": 1,
+   "bytes": 993
+  },
+  {
+   "name": "cohort-analysis",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:38:47.906524Z",
+   "skillId": "skill_01Gm7wRT2AptSCSgzUaR1xyE",
+   "files": 1,
+   "bytes": 5026
+  },
+  {
+   "name": "competitive-battlecard",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:39:06.243271Z",
+   "skillId": "skill_01Etg4AuRwSR9sWC9G9v3sck",
+   "files": 1,
+   "bytes": 2886
+  },
+  {
+   "name": "competitor-analysis",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:38:24.599655Z",
+   "skillId": "skill_01Wi3pPPNKRqkFAZQimAU6uc",
+   "files": 1,
+   "bytes": 4814
+  },
+  {
+   "name": "create-prd",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:38:41.785695Z",
+   "skillId": "skill_01E7cUz6YmrBFrz2Bmi324An",
+   "files": 1,
+   "bytes": 3551
+  },
+  {
+   "name": "customer-journey-map",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:39:09.225154Z",
+   "skillId": "skill_01PnBYG9m3Nu8RBMx3vVSnSs",
+   "files": 1,
+   "bytes": 3268
+  },
+  {
+   "name": "flow-protocol",
+   "source": "custom",
+   "updatedAt": "2026-04-06T08:58:34.753804Z",
+   "skillId": "skill_01CCxdQ3ta9RjSj4Fb5q6hKc",
+   "files": 1,
+   "bytes": 9554
+  },
+  {
+   "name": "growth-loops",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:39:06.547461Z",
+   "skillId": "skill_01Mcy482fjrzYiGmH6KhgHRP",
+   "files": 1,
+   "bytes": 5788
+  },
+  {
+   "name": "gtm-motions",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:39:07.426626Z",
+   "skillId": "skill_01YH1SXzWyenWmCVzBfcr9qB",
+   "files": 1,
+   "bytes": 7556
+  },
+  {
+   "name": "gtm-strategy",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:38:29.261927Z",
+   "skillId": "skill_01RGjMkgWfwUWwP8mn7JDyWK",
+   "files": 1,
+   "bytes": 4047
+  },
+  {
+   "name": "ideal-customer-profile",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:39:08.633147Z",
+   "skillId": "skill_014YXp8MiNLBEiptXmu7Kwg8",
+   "files": 1,
+   "bytes": 6002
+  },
+  {
+   "name": "identify-assumptions-existing",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:39:21.703914Z",
+   "skillId": "skill_015M1ANcNGmcUgYFs6D1q38L",
+   "files": 1,
+   "bytes": 2102
+  },
+  {
+   "name": "identify-assumptions-new",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:39:22.180065Z",
+   "skillId": "skill_01Q7msydgyf3y6594rXGTwhz",
+   "files": 1,
+   "bytes": 3227
+  },
+  {
+   "name": "interview-script",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:39:23.747819Z",
+   "skillId": "skill_01EF7HijSLVb3BnrBqNNSUEu",
+   "files": 1,
+   "bytes": 4817
+  },
+  {
+   "name": "karpathy-guidelines",
+   "source": "custom",
+   "updatedAt": "2026-04-22T06:31:14.370487Z",
+   "skillId": "skill_01QKUDwU77z9Le3YgrKkdz2t",
+   "files": 1,
+   "bytes": 6280
+  },
+  {
+   "name": "knowledge-graph-coworker",
+   "source": "custom",
+   "updatedAt": "2026-04-09T07:55:14.581254Z",
+   "skillId": "skill_01XqwhLK4tF3uqM5oVA3u6MG",
+   "files": 4,
+   "bytes": 33568
+  },
+  {
+   "name": "lean-canvas",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:38:28.956226Z",
+   "skillId": "skill_01NbgbUTSUnoxagg4n29msSL",
+   "files": 1,
+   "bytes": 4860
+  },
+  {
+   "name": "market-segments",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:39:10.603477Z",
+   "skillId": "skill_01SEVAUd5ciRwT6Pfe75nWsm",
+   "files": 1,
+   "bytes": 3623
+  },
+  {
+   "name": "market-sizing",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:38:39.927263Z",
+   "skillId": "skill_01G184W1q6f7BeC4mN5HfDZP",
+   "files": 1,
+   "bytes": 4424
+  },
+  {
+   "name": "marketing-ideas",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:39:14.556860Z",
+   "skillId": "skill_01D6LkvhLSxFcH3K3a8SgdMq",
+   "files": 1,
+   "bytes": 2178
+  },
+  {
+   "name": "metrics-dashboard",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:39:24.663529Z",
+   "skillId": "skill_01NvmyeaWUCAEvQBGTWtXnYJ",
+   "files": 1,
+   "bytes": 5754
+  },
+  {
+   "name": "millionaire-autopilot",
+   "source": "custom",
+   "updatedAt": "2026-04-09T21:58:57.627763Z",
+   "skillId": "skill_01MyoZ6Tw31pPDcaktgUJ2XL",
+   "files": 3,
+   "bytes": 27467
+  },
+  {
+   "name": "mirofish-research-agent",
+   "source": "custom",
+   "updatedAt": "2026-04-09T15:45:25.919863Z",
+   "skillId": "skill_01MZcQ8qs9BjoASZ1vYDgqtq",
+   "files": 5,
+   "bytes": 46880
+  },
+  {
+   "name": "mosaic-arbitrage",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:35:49.742721Z",
+   "skillId": "skill_016QAxN6Wm8189tvr4TB7WzF",
+   "files": 4,
+   "bytes": 18718
+  },
+  {
+   "name": "north-star-metric",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:38:46.376972Z",
+   "skillId": "skill_01AfUoVPQSKeZLE6opxLxwUk",
+   "files": 1,
+   "bytes": 4152
+  },
+  {
+   "name": "opportunity-solution-tree",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:39:25.385796Z",
+   "skillId": "skill_012eYSevq41U4SBtQuGHkbTk",
+   "files": 1,
+   "bytes": 4281
+  },
+  {
+   "name": "outcome-roadmap",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:38:52.760031Z",
+   "skillId": "skill_0174u36m24hRfTTftMA9nMxM",
+   "files": 1,
+   "bytes": 3601
+  },
+  {
+   "name": "overnight-ops",
+   "source": "custom",
+   "updatedAt": "2026-04-05T20:23:59.884729Z",
+   "skillId": "skill_015hnwU3MXVPrtNf8w7oo7LA",
+   "files": 5,
+   "bytes": 22123
+  },
+  {
+   "name": "positioning-ideas",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:39:14.790717Z",
+   "skillId": "skill_01EwcNN2Z2Hmu9Srd6knwPzg",
+   "files": 1,
+   "bytes": 3002
+  },
+  {
+   "name": "pre-mortem",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:38:53.862247Z",
+   "skillId": "skill_01AAoVY3tS5qjag17KfnDWcU",
+   "files": 1,
+   "bytes": 4082
+  },
+  {
+   "name": "pricing-strategy",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:38:44.150631Z",
+   "skillId": "skill_019Uwv9Hsy6KmcPgARTwaqwY",
+   "files": 1,
+   "bytes": 3666
+  },
+  {
+   "name": "prioritization-frameworks",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:38:56.134926Z",
+   "skillId": "skill_01EsTosgwsTSR5AfkFM32V8t",
+   "files": 1,
+   "bytes": 4235
+  },
+  {
+   "name": "prioritize-assumptions",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:39:25.667423Z",
+   "skillId": "skill_01TjawyHzeL9pXJ5gzscSnw2",
+   "files": 1,
+   "bytes": 2311
+  },
+  {
+   "name": "product-name",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:39:15.703260Z",
+   "skillId": "skill_01JpkWq81y3r6FWrDGt4tViw",
+   "files": 1,
+   "bytes": 2196
+  },
+  {
+   "name": "product-strategy",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:38:23.388197Z",
+   "skillId": "skill_01AizYHvBpbWc1SnrRAwT4sh",
+   "files": 1,
+   "bytes": 4833
+  },
+  {
+   "name": "prompt-coach",
+   "source": "custom",
+   "updatedAt": "2026-05-16T21:23:41.336296Z",
+   "skillId": "skill_01LVFoyafVeKHjcnumXYnQrJ",
+   "files": 1,
+   "bytes": 7745
+  },
+  {
+   "name": "prompt-template",
+   "source": "custom",
+   "updatedAt": "2026-05-18T17:39:21.335837Z",
+   "skillId": "skill_01PHhXB7fqANJKWyuiw52pJA",
+   "files": 1,
+   "bytes": 12108
+  },
+  {
+   "name": "release-notes",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:38:57.318157Z",
+   "skillId": "skill_01HUwpLJubU5woeSdzRcZcTy",
+   "files": 1,
+   "bytes": 2569
+  },
+  {
+   "name": "retro",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:38:57.246402Z",
+   "skillId": "skill_01YH1xEoTSA1tQtbGnt6Hko7",
+   "files": 1,
+   "bytes": 2809
+  },
+  {
+   "name": "sentiment-analysis",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:39:12.753366Z",
+   "skillId": "skill_01UUYLAnygd9cgWkRgzVosBN",
+   "files": 1,
+   "bytes": 3500
+  },
+  {
+   "name": "simcorp-am-excel-export",
+   "source": "plugin",
+   "updatedAt": "2026-09-17T17:47:39.587622Z",
+   "skillId": "skill_014y4zPW4YwPJ4vnVfwHM3wr",
+   "files": 1,
+   "bytes": 5500
+  },
+  {
+   "name": "simcorp-am-weight-layouts",
+   "source": "plugin",
+   "updatedAt": "2026-09-01T13:32:55.957560Z",
+   "skillId": "skill_01E3DwyfDCZNHAXgawYad2Bx",
+   "files": 1,
+   "bytes": 5212
+  },
+  {
+   "name": "simcorp-ar-approval",
+   "source": "plugin",
+   "updatedAt": "2026-09-02T22:12:56.409019Z",
+   "skillId": "skill_018XEjoZHQU3GgsSVgAp4GsF",
+   "files": 1,
+   "bytes": 9930
+  },
+  {
+   "name": "simcorp-comm-server",
+   "source": "custom",
+   "updatedAt": "2026-08-18T17:34:28.064092Z",
+   "skillId": "skill_011dETdsXEWvDq4KEEGzLFM8",
+   "files": 14,
+   "bytes": 115216
+  },
+  {
+   "name": "simcorp-compliance-rules",
+   "source": "plugin",
+   "updatedAt": "2026-09-14T20:53:42.427395Z",
+   "skillId": "skill_01MPHDpgEEkpgmwUe61QnAG3",
+   "files": 1,
+   "bytes": 9998
+  },
+  {
+   "name": "simcorp-dashboards",
+   "source": "custom",
+   "updatedAt": "2026-08-25T19:29:17.133162Z",
+   "skillId": "skill_01785XHCqCL1jHA8sbUSRhL1",
+   "files": 6,
+   "bytes": 51682
+  },
+  {
+   "name": "simcorp-data-management-specialist",
+   "source": "custom",
+   "updatedAt": "2026-08-28T09:44:49.618405Z",
+   "skillId": "skill_012b3boJxMiVud63eZpt3Uh3",
+   "files": 5,
+   "bytes": 24313
+  },
+  {
+   "name": "simcorp-dex-validator",
+   "source": "custom",
+   "updatedAt": "2026-07-31T09:42:08.246847Z",
+   "skillId": "skill_011DBQ9HcAEvMEmBnqNJfiMj",
+   "files": 7,
+   "bytes": 15547
+  },
+  {
+   "name": "simcorp-doc-search",
+   "source": "plugin",
+   "updatedAt": "2026-09-15T13:26:15.696361Z",
+   "skillId": "skill_01WbNEaTscg53kUaSoBkc94X",
+   "files": 1,
+   "bytes": 8686
+  },
+  {
+   "name": "simcorp-extraction",
+   "source": "custom",
+   "updatedAt": "2026-04-10T12:31:20.233510Z",
+   "skillId": "skill_01Tz4vCtvXMijJjeurMVMpEh",
+   "files": 1,
+   "bytes": 6650
+  },
+  {
+   "name": "simcorp-fo-flow-architect",
+   "source": "custom",
+   "updatedAt": "2026-08-24T16:39:41.638652Z",
+   "skillId": "skill_01RjCZULQehKtce2H7tLY4AQ",
+   "files": 1,
+   "bytes": 4081
+  },
+  {
+   "name": "simcorp-mdv",
+   "source": "plugin",
+   "updatedAt": "2026-09-15T13:56:30.252506Z",
+   "skillId": "skill_0155RhaxuYX77RUMkbfbtefr",
+   "files": 1,
+   "bytes": 15578
+  },
+  {
+   "name": "simcorp-mf-order-flow",
+   "source": "custom",
+   "updatedAt": "2026-08-27T12:25:28.719089Z",
+   "skillId": "skill_016RP7nwGtYFxPPhpjKi6MsV",
+   "files": 1,
+   "bytes": 7463
+  },
+  {
+   "name": "simcorp-notebooklm-bridge",
+   "source": "custom",
+   "updatedAt": "2026-04-10T12:31:25.076750Z",
+   "skillId": "skill_01N4GvVuQr3yyLRGDGNE37dV",
+   "files": 1,
+   "bytes": 6062
+  },
+  {
+   "name": "simcorp-om-runtime-triage",
+   "source": "plugin",
+   "updatedAt": "2026-09-08T06:52:03.884399Z",
+   "skillId": "skill_01NbTRXz1nGaEsAdeLr3MAA5",
+   "files": 8,
+   "bytes": 51997
+  },
+  {
+   "name": "simcorp-order-impact-check",
+   "source": "plugin",
+   "updatedAt": "2026-09-14T13:48:43.557194Z",
+   "skillId": "skill_01CsTFbykfBRfAwWBY4Mif5i",
+   "files": 1,
+   "bytes": 8183
+  },
+  {
+   "name": "simcorp-pd-lifecycle",
+   "source": "custom",
+   "updatedAt": "2026-08-18T14:56:14.163225Z",
+   "skillId": "skill_01P7qmhRqPozq4RvbMx3WMT9",
+   "files": 2,
+   "bytes": 12410
+  },
+  {
+   "name": "simcorp-pd-migration",
+   "source": "custom",
+   "updatedAt": "2026-08-18T14:56:18.890877Z",
+   "skillId": "skill_01SWmiCLjeyMbgFkg2UVopLW",
+   "files": 1,
+   "bytes": 7759
+  },
+  {
+   "name": "simcorp-pd-notices",
+   "source": "custom",
+   "updatedAt": "2026-08-18T14:56:16.586311Z",
+   "skillId": "skill_01RqtRzAEHvD2HegNCr7fVda",
+   "files": 1,
+   "bytes": 8475
+  },
+  {
+   "name": "simcorp-pd-valuation-cash",
+   "source": "custom",
+   "updatedAt": "2026-08-18T14:56:21.030517Z",
+   "skillId": "skill_01Jj6hKeL3T667ARP7Lp8H6c",
+   "files": 1,
+   "bytes": 7914
+  },
+  {
+   "name": "simcorp-performance-specialist",
+   "source": "custom",
+   "updatedAt": "2026-08-17T21:12:27.977441Z",
+   "skillId": "skill_01CGgs1qRqWL3QWj8UQkFR5v",
+   "files": 5,
+   "bytes": 51424
+  },
+  {
+   "name": "simcorp-pricing-precedence",
+   "source": "plugin",
+   "updatedAt": "2026-09-06T19:32:34.597949Z",
+   "skillId": "skill_01FKaKBDcibDmUiJX8oFGmsT",
+   "files": 1,
+   "bytes": 13279
+  },
+  {
+   "name": "simcorp-recon-breaks",
+   "source": "custom",
+   "updatedAt": "2026-08-25T17:11:17.419652Z",
+   "skillId": "skill_01JejCdPoVM2dunDR1ERE8Hv",
+   "files": 8,
+   "bytes": 66247
+  },
+  {
+   "name": "simcorp-service-platform",
+   "source": "custom",
+   "updatedAt": "2026-08-24T20:33:45.918618Z",
+   "skillId": "skill_01WoUTeydNURdrxXAuU3sg7q",
+   "files": 12,
+   "bytes": 94924
+  },
+  {
+   "name": "simcorp-service-tracing",
+   "source": "plugin",
+   "updatedAt": "2026-08-31T20:45:50.831162Z",
+   "skillId": "skill_019MDGzV9JzpwEs7GvoZQo3n",
+   "files": 1,
+   "bytes": 5039
+  },
+  {
+   "name": "simcorp-super-agent",
+   "source": "custom",
+   "updatedAt": "2026-04-10T12:31:14.624468Z",
+   "skillId": "skill_01Q4iyeivqbYZDtUYgEWojar",
+   "files": 1,
+   "bytes": 6035
+  },
+  {
+   "name": "social-arb-context-arch",
+   "source": "custom",
+   "updatedAt": "2026-04-15T08:40:54.488297Z",
+   "skillId": "skill_015SD2cELAhc1Tdbmn9HCGDt",
+   "files": 1,
+   "bytes": 5214
+  },
+  {
+   "name": "sprint-plan",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:38:42.840998Z",
+   "skillId": "skill_01EL1Mq1rTyoSgtJeJvUqovu",
+   "files": 1,
+   "bytes": 2365
+  },
+  {
+   "name": "sql-queries",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:38:51.011619Z",
+   "skillId": "skill_012gL5PoKVP9eSE9oDMKefa7",
+   "files": 1,
+   "bytes": 3628
+  },
+  {
+   "name": "stakeholder-map",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:38:59.027248Z",
+   "skillId": "skill_016fUL8TpQyfUCRpZ3jTux6J",
+   "files": 1,
+   "bytes": 2510
+  },
+  {
+   "name": "substack-archive",
+   "source": "custom",
+   "updatedAt": "2026-08-10T13:24:50.918093Z",
+   "skillId": "skill_015nEjyuvHiPUmbQ3QqX3uY1",
+   "files": 2,
+   "bytes": 8991
+  },
+  {
+   "name": "summarize-meeting",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:38:59.871698Z",
+   "skillId": "skill_01AiTKafEXkTKZriZYTeefRw",
+   "files": 1,
+   "bytes": 2997
+  },
+  {
+   "name": "swot-analysis",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:38:44.414019Z",
+   "skillId": "skill_01S1P9txgfCZr98igP1nPLnj",
+   "files": 1,
+   "bytes": 3813
+  },
+  {
+   "name": "test-scenarios",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:39:01.278672Z",
+   "skillId": "skill_01LA72LQa7AtejTHmknNmmNK",
+   "files": 1,
+   "bytes": 3472
+  },
+  {
+   "name": "user-personas",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:38:40.890304Z",
+   "skillId": "skill_01WSKAcrte1C8s2C5Nm5zBcb",
+   "files": 1,
+   "bytes": 3047
+  },
+  {
+   "name": "user-segmentation",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:39:13.665154Z",
+   "skillId": "skill_018E3TV79FdckBGYsiVeA7Kg",
+   "files": 1,
+   "bytes": 4102
+  },
+  {
+   "name": "user-stories",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:39:04.070927Z",
+   "skillId": "skill_01FD9eWgYtg4JFb1WDdiAPrp",
+   "files": 1,
+   "bytes": 2991
+  },
+  {
+   "name": "value-prop-statements",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:39:16.745233Z",
+   "skillId": "skill_01Ux9vGVRCQs16wtEpq82x7c",
+   "files": 1,
+   "bytes": 3032
+  },
+  {
+   "name": "value-proposition",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:38:45.093043Z",
+   "skillId": "skill_01Axt8u3tXNLa2GncFpdCZzE",
+   "files": 1,
+   "bytes": 5836
+  },
+  {
+   "name": "website-dev-team",
+   "source": "custom",
+   "updatedAt": "2026-04-10T08:25:23.438690Z",
+   "skillId": "skill_018xDL2SC89TAxCZKVN5apVf",
+   "files": 1,
+   "bytes": 10601
+  }
+ ],
+ "part": "claude-account",
+ "file_count": 173,
+ "bytes": 1062123,
+ "excluded": [
+  {
+   "source": "account-skill-sync/substack-archive/scripts/__pycache__",
+   "pattern": "__pycache__/",
+   "kind": "dir"
+  }
+ ],
+ "broken_symlinks": [],
+ "dereferenced_symlinks": [],
+ "errors": [],
+ "source_mtimes": {
+  "claude-account/skills/ab-test-analysis/SKILL.md": "2026-09-15T12:17:45Z",
+  "claude-account/skills/analyze-feature-requests/SKILL.md": "2026-09-15T12:17:44Z",
+  "claude-account/skills/beachhead-segment/SKILL.md": "2026-09-15T12:17:45Z",
+  "claude-account/skills/brainstorm-experiments-existing/SKILL.md": "2026-09-15T12:17:44Z",
+  "claude-account/skills/brainstorm-experiments-new/SKILL.md": "2026-09-15T12:17:45Z",
+  "claude-account/skills/brainstorm-ideas-existing/SKILL.md": "2026-09-15T12:17:44Z",
+  "claude-account/skills/brainstorm-ideas-new/SKILL.md": "2026-09-15T12:17:44Z",
+  "claude-account/skills/brainstorm-okrs/SKILL.md": "2026-09-15T12:17:45Z",
+  "claude-account/skills/cash-recon/SKILL.md": "2026-09-15T12:17:43Z",
+  "claude-account/skills/cash-recon/references/01-cash-viewer-mechanics.md": "2026-09-15T12:17:43Z",
+  "claude-account/skills/cash-recon/references/02-bank-account-defaulting.md": "2026-09-15T12:17:43Z",
+  "claude-account/skills/cash-recon/references/03-template-anatomy.md": "2026-09-15T12:17:43Z",
+  "claude-account/skills/cash-recon/references/04-recon-method.md": "2026-09-15T12:17:43Z",
+  "claude-account/skills/cash-recon/references/05-worked-case-2026-09-09.md": "2026-09-15T12:17:43Z",
+  "claude-account/skills/cash-recon/references/06-source-index.md": "2026-09-15T12:17:43Z",
+  "claude-account/skills/cash-recon/references/account_map_nicola_2026-09-09.csv": "2026-09-15T12:17:43Z",
+  "claude-account/skills/cash-recon/scripts/cash_recon.py": "2026-09-15T12:17:43Z",
+  "claude-account/skills/chief-of-staff/SKILL.md": "2026-09-15T12:17:44Z",
+  "claude-account/skills/cohort-analysis/SKILL.md": "2026-09-15T12:17:45Z",
+  "claude-account/skills/competitive-battlecard/SKILL.md": "2026-09-15T12:17:45Z",
+  "claude-account/skills/competitor-analysis/SKILL.md": "2026-09-15T12:17:45Z",
+  "claude-account/skills/create-prd/SKILL.md": "2026-09-15T12:17:45Z",
+  "claude-account/skills/customer-journey-map/SKILL.md": "2026-09-15T12:17:45Z",
+  "claude-account/skills/flow-protocol/SKILL.md": "2026-09-15T12:17:44Z",
+  "claude-account/skills/growth-loops/SKILL.md": "2026-09-15T12:17:45Z",
+  "claude-account/skills/gtm-motions/SKILL.md": "2026-09-15T12:17:45Z",
+  "claude-account/skills/gtm-strategy/SKILL.md": "2026-09-15T12:17:45Z",
+  "claude-account/skills/ideal-customer-profile/SKILL.md": "2026-09-15T12:17:45Z",
+  "claude-account/skills/identify-assumptions-existing/SKILL.md": "2026-09-15T12:17:44Z",
+  "claude-account/skills/identify-assumptions-new/SKILL.md": "2026-09-15T12:17:44Z",
+  "claude-account/skills/interview-script/SKILL.md": "2026-09-15T12:17:44Z",
+  "claude-account/skills/karpathy-guidelines/SKILL.md": "2026-09-15T12:17:44Z",
+  "claude-account/skills/knowledge-graph-coworker/SKILL.md": "2026-09-15T12:17:44Z",
+  "claude-account/skills/knowledge-graph-coworker/references/entity-templates.md": "2026-09-15T12:17:44Z",
+  "claude-account/skills/knowledge-graph-coworker/references/gcp-deployment-guide.md": "2026-09-15T12:17:44Z",
+  "claude-account/skills/knowledge-graph-coworker/references/rowboat-architecture.md": "2026-09-15T12:17:44Z",
+  "claude-account/skills/lean-canvas/SKILL.md": "2026-09-15T12:17:45Z",
+  "claude-account/skills/market-segments/SKILL.md": "2026-09-15T12:17:45Z",
+  "claude-account/skills/market-sizing/SKILL.md": "2026-09-15T12:17:45Z",
+  "claude-account/skills/marketing-ideas/SKILL.md": "2026-09-15T12:17:44Z",
+  "claude-account/skills/metrics-dashboard/SKILL.md": "2026-09-15T12:17:44Z",
+  "claude-account/skills/millionaire-autopilot/SKILL.md": "2026-09-15T12:17:44Z",
+  "claude-account/skills/millionaire-autopilot/references/evening-cycle.md": "2026-09-15T12:17:44Z",
+  "claude-account/skills/millionaire-autopilot/references/morning-cycle.md": "2026-09-15T12:17:44Z",
+  "claude-account/skills/mirofish-research-agent/SKILL.md": "2026-09-15T12:17:44Z",
+  "claude-account/skills/mirofish-research-agent/references/bloomberg-ui.md": "2026-09-15T12:17:44Z",
+  "claude-account/skills/mirofish-research-agent/references/brain-topology.md": "2026-09-15T12:17:44Z",
+  "claude-account/skills/mirofish-research-agent/references/solution-template.md": "2026-09-15T12:17:44Z",
+  "claude-account/skills/mirofish-research-agent/references/tdd-patterns.md": "2026-09-15T12:17:44Z",
+  "claude-account/skills/mosaic-arbitrage/SKILL.md": "2026-09-15T12:17:46Z",
+  "claude-account/skills/mosaic-arbitrage/references/signal-sources.md": "2026-09-15T12:17:46Z",
+  "claude-account/skills/mosaic-arbitrage/references/stepps-deep-dive.md": "2026-09-15T12:17:46Z",
+  "claude-account/skills/mosaic-arbitrage/references/unit-economics-templates.md": "2026-09-15T12:17:46Z",
+  "claude-account/skills/north-star-metric/SKILL.md": "2026-09-15T12:17:45Z",
+  "claude-account/skills/opportunity-solution-tree/SKILL.md": "2026-09-15T12:17:44Z",
+  "claude-account/skills/outcome-roadmap/SKILL.md": "2026-09-15T12:17:45Z",
+  "claude-account/skills/overnight-ops/SKILL.md": "2026-09-15T12:17:44Z",
+  "claude-account/skills/overnight-ops/references/briefing-agent.md": "2026-09-15T12:17:44Z",
+  "claude-account/skills/overnight-ops/references/build-agent.md": "2026-09-15T12:17:44Z",
+  "claude-account/skills/overnight-ops/references/optimize-agent.md": "2026-09-15T12:17:44Z",
+  "claude-account/skills/overnight-ops/references/research-agent.md": "2026-09-15T12:17:44Z",
+  "claude-account/skills/positioning-ideas/SKILL.md": "2026-09-15T12:17:44Z",
+  "claude-account/skills/pre-mortem/SKILL.md": "2026-09-15T12:17:45Z",
+  "claude-account/skills/pricing-strategy/SKILL.md": "2026-09-15T12:17:45Z",
+  "claude-account/skills/prioritization-frameworks/SKILL.md": "2026-09-15T12:17:45Z",
+  "claude-account/skills/prioritize-assumptions/SKILL.md": "2026-09-15T12:17:44Z",
+  "claude-account/skills/product-name/SKILL.md": "2026-09-15T12:17:45Z",
+  "claude-account/skills/product-strategy/SKILL.md": "2026-09-15T12:17:46Z",
+  "claude-account/skills/prompt-coach/SKILL.md": "2026-09-15T12:17:44Z",
+  "claude-account/skills/prompt-template/SKILL.md": "2026-09-15T12:17:44Z",
+  "claude-account/skills/release-notes/SKILL.md": "2026-09-15T12:17:45Z",
+  "claude-account/skills/retro/SKILL.md": "2026-09-15T12:17:45Z",
+  "claude-account/skills/sentiment-analysis/SKILL.md": "2026-09-15T12:17:45Z",
+  "claude-account/skills/simcorp-am-excel-export/SKILL.md": "2026-09-19T07:51:41Z",
+  "claude-account/skills/simcorp-am-weight-layouts/SKILL.md": "2026-09-15T12:17:43Z",
+  "claude-account/skills/simcorp-ar-approval/SKILL.md": "2026-09-15T12:17:43Z",
+  "claude-account/skills/simcorp-comm-server/SKILL.md": "2026-09-15T12:17:43Z",
+  "claude-account/skills/simcorp-comm-server/references/01-architecture-and-objects.md": "2026-09-15T12:17:43Z",
+  "claude-account/skills/simcorp-comm-server/references/02-triage-playbooks.md": "2026-09-15T12:17:43Z",
+  "claude-account/skills/simcorp-comm-server/references/03-mediator-client.md": "2026-09-15T12:17:43Z",
+  "claude-account/skills/simcorp-comm-server/references/04-config-cdl-reference.md": "2026-09-15T12:17:43Z",
+  "claude-account/skills/simcorp-comm-server/references/05-gateway-contracts.md": "2026-09-15T12:17:43Z",
+  "claude-account/skills/simcorp-comm-server/references/06-setup-catalogue.md": "2026-09-15T12:17:43Z",
+  "claude-account/skills/simcorp-comm-server/references/07-setups-marketdata-ca-vendors.md": "2026-09-15T12:17:43Z",
+  "claude-account/skills/simcorp-comm-server/references/08-setups-alternatives-wealth.md": "2026-09-15T12:17:43Z",
+  "claude-account/skills/simcorp-comm-server/references/09-setups-trade-capture-orders.md": "2026-09-15T12:17:43Z",
+  "claude-account/skills/simcorp-comm-server/references/10-setups-recon-settlement-platform.md": "2026-09-15T12:17:43Z",
+  "claude-account/skills/simcorp-comm-server/references/11-change-procedure.md": "2026-09-15T12:17:43Z",
+  "claude-account/skills/simcorp-comm-server/references/12-gaps-and-risks.md": "2026-09-15T12:17:43Z",
+  "claude-account/skills/simcorp-comm-server/scripts/parse_comsrv_cei.py": "2026-09-15T12:17:43Z",
+  "claude-account/skills/simcorp-compliance-rules/SKILL.md": "2026-09-15T12:17:43Z",
+  "claude-account/skills/simcorp-dashboards/SKILL.md": "2026-09-15T12:17:43Z",
+  "claude-account/skills/simcorp-dashboards/references/area-specs-ops.md": "2026-09-15T12:17:43Z",
+  "claude-account/skills/simcorp-dashboards/references/area-specs-trades.md": "2026-09-15T12:17:43Z",
+  "claude-account/skills/simcorp-dashboards/references/spec-template.md": "2026-09-15T12:17:43Z",
+  "claude-account/skills/simcorp-dashboards/references/widget-catalogue.md": "2026-09-15T12:17:43Z",
+  "claude-account/skills/simcorp-dashboards/references/widget-mechanics.md": "2026-09-15T12:17:43Z",
+  "claude-account/skills/simcorp-data-management-specialist/SKILL.md": "2026-09-15T12:17:43Z",
+  "claude-account/skills/simcorp-data-management-specialist/references/price-methods.md": "2026-09-15T12:17:43Z",
+  "claude-account/skills/simcorp-data-management-specialist/references/price-types.md": "2026-09-15T12:17:43Z",
+  "claude-account/skills/simcorp-data-management-specialist/references/pricing-object-model.md": "2026-09-15T12:17:43Z",
+  "claude-account/skills/simcorp-data-management-specialist/references/validation-playbook.md": "2026-09-15T12:17:43Z",
+  "claude-account/skills/simcorp-dex-validator/SKILL.md": "2026-09-15T12:17:44Z",
+  "claude-account/skills/simcorp-dex-validator/references/CHECKS.md": "2026-09-15T12:17:44Z",
+  "claude-account/skills/simcorp-dex-validator/scripts/build_index.py": "2026-09-15T12:17:44Z",
+  "claude-account/skills/simcorp-dex-validator/scripts/resolve.py": "2026-09-15T12:17:44Z",
+  "claude-account/skills/simcorp-dex-validator/scripts/validate_design.py": "2026-09-15T12:17:44Z",
+  "claude-account/skills/simcorp-dex-validator/templates/design_e1_e6_example.json": "2026-09-15T12:17:44Z",
+  "claude-account/skills/simcorp-dex-validator/templates/design_template.json": "2026-09-15T12:17:44Z",
+  "claude-account/skills/simcorp-doc-search/SKILL.md": "2026-09-15T17:51:05Z",
+  "claude-account/skills/simcorp-extraction/SKILL.md": "2026-09-15T12:17:44Z",
+  "claude-account/skills/simcorp-fo-flow-architect/SKILL.md": "2026-09-15T12:17:43Z",
+  "claude-account/skills/simcorp-mdv/SKILL.md": "2026-09-15T17:51:06Z",
+  "claude-account/skills/simcorp-mf-order-flow/SKILL.md": "2026-09-15T12:17:43Z",
+  "claude-account/skills/simcorp-notebooklm-bridge/SKILL.md": "2026-09-15T12:17:44Z",
+  "claude-account/skills/simcorp-om-runtime-triage/SKILL.md": "2026-09-15T12:17:43Z",
+  "claude-account/skills/simcorp-om-runtime-triage/references/01-handover-chain.md": "2026-09-15T12:17:43Z",
+  "claude-account/skills/simcorp-om-runtime-triage/references/02-data-store-cluster.md": "2026-09-15T12:17:43Z",
+  "claude-account/skills/simcorp-om-runtime-triage/references/03-named-failures.md": "2026-09-15T12:17:43Z",
+  "claude-account/skills/simcorp-om-runtime-triage/references/04-log-export-reader.md": "2026-09-15T12:17:43Z",
+  "claude-account/skills/simcorp-om-runtime-triage/references/05-worked-case-2026-09-07.md": "2026-09-15T12:17:43Z",
+  "claude-account/skills/simcorp-om-runtime-triage/references/06-source-index.md": "2026-09-15T12:17:43Z",
+  "claude-account/skills/simcorp-om-runtime-triage/scripts/read_service_log.py": "2026-09-15T12:17:43Z",
+  "claude-account/skills/simcorp-order-impact-check/SKILL.md": "2026-09-15T12:17:43Z",
+  "claude-account/skills/simcorp-pd-lifecycle/SKILL.md": "2026-09-15T12:17:43Z",
+  "claude-account/skills/simcorp-pd-lifecycle/references/EVENT_DETAIL.md": "2026-09-15T12:17:43Z",
+  "claude-account/skills/simcorp-pd-migration/SKILL.md": "2026-09-15T12:17:43Z",
+  "claude-account/skills/simcorp-pd-notices/SKILL.md": "2026-09-15T12:17:44Z",
+  "claude-account/skills/simcorp-pd-valuation-cash/SKILL.md": "2026-09-15T12:17:43Z",
+  "claude-account/skills/simcorp-performance-specialist/SKILL.md": "2026-09-15T12:17:43Z",
+  "claude-account/skills/simcorp-performance-specialist/references/model-portfolio-decomposition.md": "2026-09-15T12:17:43Z",
+  "claude-account/skills/simcorp-performance-specialist/references/nav-performance-v2-runbook.md": "2026-09-15T12:17:43Z",
+  "claude-account/skills/simcorp-performance-specialist/references/pd-fund-service-cost-mp.md": "2026-09-15T12:17:43Z",
+  "claude-account/skills/simcorp-performance-specialist/references/performance-calc-fundamentals.md": "2026-09-15T12:17:43Z",
+  "claude-account/skills/simcorp-pricing-precedence/SKILL.md": "2026-09-15T12:17:43Z",
+  "claude-account/skills/simcorp-recon-breaks/SKILL.md": "2026-09-15T12:17:43Z",
+  "claude-account/skills/simcorp-recon-breaks/references/architecture-and-integration.md": "2026-09-15T12:17:43Z",
+  "claude-account/skills/simcorp-recon-breaks/references/break-log-schema.md": "2026-09-15T12:17:43Z",
+  "claude-account/skills/simcorp-recon-breaks/references/break-taxonomy.md": "2026-09-15T12:17:43Z",
+  "claude-account/skills/simcorp-recon-breaks/references/diagrams.md": "2026-09-15T12:17:43Z",
+  "claude-account/skills/simcorp-recon-breaks/references/investigation-playbooks.md": "2026-09-15T12:17:43Z",
+  "claude-account/skills/simcorp-recon-breaks/references/process-ten-stages.md": "2026-09-15T12:17:43Z",
+  "claude-account/skills/simcorp-recon-breaks/references/recon-domains.md": "2026-09-15T12:17:43Z",
+  "claude-account/skills/simcorp-service-platform/SKILL.md": "2026-09-15T12:17:43Z",
+  "claude-account/skills/simcorp-service-platform/references/01-platform-and-tools.md": "2026-09-15T12:17:43Z",
+  "claude-account/skills/simcorp-service-platform/references/02-automation-models.md": "2026-09-15T12:17:43Z",
+  "claude-account/skills/simcorp-service-platform/references/03-blocking-blacklisting-recovery.md": "2026-09-15T12:17:43Z",
+  "claude-account/skills/simcorp-service-platform/references/04-operating-services.md": "2026-09-15T12:17:43Z",
+  "claude-account/skills/simcorp-service-platform/references/05-service-control-utility.md": "2026-09-15T12:17:43Z",
+  "claude-account/skills/simcorp-service-platform/references/06-install-agents-and-platform.md": "2026-09-15T12:17:43Z",
+  "claude-account/skills/simcorp-service-platform/references/07-capabilities-tags-scaling.md": "2026-09-15T12:17:43Z",
+  "claude-account/skills/simcorp-service-platform/references/08-service-catalogue.md": "2026-09-15T12:17:43Z",
+  "claude-account/skills/simcorp-service-platform/references/09-order-manager-services.md": "2026-09-15T12:17:43Z",
+  "claude-account/skills/simcorp-service-platform/references/10-triage-playbooks.md": "2026-09-15T12:17:43Z",
+  "claude-account/skills/simcorp-service-platform/references/11-source-manual-index.md": "2026-09-15T12:17:43Z",
+  "claude-account/skills/simcorp-service-tracing/SKILL.md": "2026-09-15T12:17:43Z",
+  "claude-account/skills/simcorp-super-agent/SKILL.md": "2026-09-15T12:17:44Z",
+  "claude-account/skills/social-arb-context-arch/SKILL.md": "2026-09-15T12:17:44Z",
+  "claude-account/skills/sprint-plan/SKILL.md": "2026-09-15T12:17:45Z",
+  "claude-account/skills/sql-queries/SKILL.md": "2026-09-15T12:17:47Z",
+  "claude-account/skills/stakeholder-map/SKILL.md": "2026-09-15T12:17:45Z",
+  "claude-account/skills/substack-archive/SKILL.md": "2026-09-15T12:17:43Z",
+  "claude-account/skills/substack-archive/scripts/archive.py": "2026-09-15T12:17:43Z",
+  "claude-account/skills/summarize-meeting/SKILL.md": "2026-09-15T12:17:45Z",
+  "claude-account/skills/swot-analysis/SKILL.md": "2026-09-15T12:17:45Z",
+  "claude-account/skills/test-scenarios/SKILL.md": "2026-09-15T12:17:45Z",
+  "claude-account/skills/user-personas/SKILL.md": "2026-09-15T12:17:45Z",
+  "claude-account/skills/user-segmentation/SKILL.md": "2026-09-15T12:17:44Z",
+  "claude-account/skills/user-stories/SKILL.md": "2026-09-15T12:17:45Z",
+  "claude-account/skills/value-prop-statements/SKILL.md": "2026-09-15T12:17:44Z",
+  "claude-account/skills/value-proposition/SKILL.md": "2026-09-15T12:17:45Z",
+  "claude-account/skills/website-dev-team/SKILL.md": "2026-09-15T12:17:44Z"
+ }
+}
