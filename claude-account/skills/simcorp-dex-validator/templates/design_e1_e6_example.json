@@ -1,0 +1,20 @@
+{"name":"Client A — Pricing/Valuation/Transaction Lineage (E1-E6)",
+ "extractions":[
+  {"id":"E1","title":"Pricing configuration","tables":["priceprofs","pricedefs","pricesources"],
+   "fields":[["priceprofs","pPRICEPROFIK"],["priceprofs","pPRICEPROF"],["priceprofs","pPRICEPROFNAME"],["pricedefs","pPRIORITY"],["pricedefs","pINSTYPE"]],
+   "joins":[["pricedefs","pPRICEPROFIK","priceprofs","pPRICEPROFIK"]]},
+  {"id":"E2","title":"Calc service binding","tables":["prikeyservices","prikeydefs","keyratdefs","keyratmap","formulas"],
+   "fields":[["prikeydefs","pPRICEPROFIK"]],
+   "joins":[["prikeydefs","pPRICEPROFIK","priceprofs","pPRICEPROFIK"]]},
+  {"id":"E3","title":"Scope & classification","tables":["seggen","sectypes","portgroups","portgrouptypes"],
+   "fields":[["sectypes","pINSTYPE"]],
+   "joins":[["pricedefs","pINSTYPE","sectypes","pINSTYPE"]]},
+  {"id":"E4","title":"Reference dependencies","tables":["refratedef","datasources","calendars"],"fields":[],"joins":[]},
+  {"id":"E5","title":"Realised valuation (PRICES)","tables":["PRICES"],
+   "fields":[["PRICES","SECIK"]],"joins":[["PRICES","SECIK","SECURITIES","SECIK"]],
+   "blocked":["price type / quotation / price date field names — confirm exact aliases (now resolvable from index)"]},
+  {"id":"E6","title":"Business transactions","tables":["TRANSMAIN"],
+   "fields":[["TRANSMAIN","SECIK"],["TRANSMAIN","AGRDATE"],["TRANSMAIN","TRCBUSNO"],["TRANSMAIN","TRAPRICE"]],
+   "joins":[["TRANSMAIN","SECIK","SECURITIES","SECIK"]],
+   "blocked":["transaction-type code table — resolve from index (candidates below)"]}
+ ]}

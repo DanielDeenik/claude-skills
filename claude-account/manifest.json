@@ -1,0 +1,639 @@
+{
+ "lastUpdated": 1789804301691,
+ "skills": [
+  {
+   "skillId": "skill_01FPeME6QbEt1jV3u2EmzKhg",
+   "name": "ab-test-analysis",
+   "description": "Analyze A/B test results with statistical significance, sample size validation, confidence intervals, and ship/extend/stop recommendations. Use when evaluating experiment results, checking if a test reached significance, interpreting split test data, or deciding whether to ship a variant.",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:38:47.116881Z"
+  },
+  {
+   "skillId": "skill_01A8iKRvCJY7wA1biEWCSh6T",
+   "name": "analyze-feature-requests",
+   "description": "Analyze and prioritize a list of feature requests by theme, strategic alignment, impact, effort, and risk. Use when reviewing customer feature requests, triaging a backlog, or making prioritization decisions.",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:39:17.500404Z"
+  },
+  {
+   "skillId": "skill_01ELvQp5Bxt5ZDWAvnNn8US6",
+   "name": "beachhead-segment",
+   "description": "Identify the first beachhead market segment for a product launch. Evaluates segments against burning pain, willingness to pay, winnable market share, and referral potential. Use when choosing a first market, targeting an initial customer segment, or planning market entry strategy.",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:39:04.947001Z"
+  },
+  {
+   "skillId": "skill_01Rt3MU5cwJeWP2bDYuKhdqD",
+   "name": "brainstorm-experiments-existing",
+   "description": "Design experiments to test assumptions for an existing product — prototypes, A/B tests, spikes, and other low-effort validation methods. Use when validating assumptions, testing feature ideas cheaply, or planning product experiments.",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:39:18.242595Z"
+  },
+  {
+   "skillId": "skill_01N16ht2Zuxj2teXjP6cUrqN",
+   "name": "brainstorm-experiments-new",
+   "description": "Design lean startup experiments (pretotypes) for a new product. Creates XYZ hypotheses and suggests low-effort validation methods like landing pages, explainer videos, and pre-orders. Use when validating a new product idea, creating pretotypes, or testing market demand.",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:39:19.216398Z"
+  },
+  {
+   "skillId": "skill_01PwFD9pr2DPAZoJ5tYoRJKa",
+   "name": "brainstorm-ideas-existing",
+   "description": "Brainstorm product ideas for an existing product using multi-perspective ideation from PM, Designer, and Engineer viewpoints. Use when generating new feature ideas, brainstorming solutions for an identified opportunity, or ideating with a product trio.",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:39:19.819020Z"
+  },
+  {
+   "skillId": "skill_018gfZTYzqQVQXe41xY8yGu6",
+   "name": "brainstorm-ideas-new",
+   "description": "Brainstorm feature ideas for a new product in initial discovery from PM, Designer, and Engineer perspectives. Use when starting product discovery for a new product, exploring features for a startup idea, or doing initial ideation.",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:39:20.311506Z"
+  },
+  {
+   "skillId": "skill_01AQD75bRRF9JS3xanFoi8kx",
+   "name": "brainstorm-okrs",
+   "description": "Brainstorm team-level OKRs aligned with company objectives — qualitative objectives with measurable key results. Use when setting quarterly OKRs, aligning team goals with company strategy, drafting objectives, or learning how to write effective OKRs.",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:38:51.440676Z"
+  },
+  {
+   "skillId": "skill_019iWfYp77Z52P5WE5v77xa5",
+   "name": "cash-recon",
+   "description": "Reconcile SimCorp Dimension cash (Asset Manager Cash Viewer, Portfolio Holdings cash rows, the CM_DAILY Daily Cash Report) against the Nicola offline Cash Management Template (csh sheet) and the custodian balances it is fed from. Use when Jason's template column N (Total Available Cash) does not match SimCorp, when a Cash Viewer balance or movement needs explaining, when an order lands on a bare currency row instead of a bank account, when fund flows look double counted, when a HISA or mutual fund trade shows on the wrong value date, or when someone asks why the cash in Asset Manager differs from the custodian. Grounded in Cash Viewing in Asset Manager (amcv, September 2025), Asset Manager Getting Started (amgsg), Settlement Defaults (setdef), Front Office Configuration (foconfig), Cash Management (cashman), Release Notes 26.04 and the Nicola Cash Management Phase 2 configuration document, plus the worked case of 9 September 2026.",
+   "source": "plugin",
+   "updatedAt": "2026-09-09T18:54:18.113717Z",
+   "backingPluginId": "plugin_01Lvv9GojDc2DuGr3cbeNhLz"
+  },
+  {
+   "skillId": "skill_01AXQYhgWM77VocffHC821vP",
+   "name": "chief-of-staff",
+   "description": "Conductor for Dan's day. Enforces the time-wall and routes tasks to existing skills. Trigger: \"run my day\", \"consulting ticket\", \"backlog bob\", \"am I on schedule\".",
+   "source": "custom",
+   "updatedAt": "2026-05-30T01:01:14.440373Z"
+  },
+  {
+   "skillId": "skill_01Gm7wRT2AptSCSgzUaR1xyE",
+   "name": "cohort-analysis",
+   "description": "Perform cohort analysis on user engagement data — retention curves, feature adoption trends, and segment-level insights. Use when analyzing user retention by cohort, studying feature adoption over time, investigating churn patterns, or identifying engagement trends.",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:38:47.906524Z"
+  },
+  {
+   "skillId": "skill_01Etg4AuRwSR9sWC9G9v3sck",
+   "name": "competitive-battlecard",
+   "description": "Create sales-ready competitive battlecards comparing your product against a specific competitor — positioning, feature comparison, objection handling, and win/loss patterns. Use when preparing sales teams, creating competitive materials, or responding to 'why not competitor X?'",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:39:06.243271Z"
+  },
+  {
+   "skillId": "skill_01Wi3pPPNKRqkFAZQimAU6uc",
+   "name": "competitor-analysis",
+   "description": "Analyze competitors with strengths, weaknesses, and differentiation opportunities. Identifies direct competitors and maps the competitive landscape. Use when doing competitive research, preparing a competitive brief, or finding differentiation opportunities.",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:38:24.599655Z"
+  },
+  {
+   "skillId": "skill_01E7cUz6YmrBFrz2Bmi324An",
+   "name": "create-prd",
+   "description": "Create a Product Requirements Document using a comprehensive 8-section template covering problem, objectives, segments, value propositions, solution, and release planning. Use when writing a PRD, documenting product requirements, preparing a feature spec, or reviewing an existing PRD.",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:38:41.785695Z"
+  },
+  {
+   "skillId": "skill_01PnBYG9m3Nu8RBMx3vVSnSs",
+   "name": "customer-journey-map",
+   "description": "Create an end-to-end customer journey map with stages, touchpoints, emotions, pain points, and opportunities. Use when mapping the customer experience, identifying friction points, improving onboarding, or visualizing the user journey.",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:39:09.225154Z"
+  },
+  {
+   "skillId": "skill_01CCxdQ3ta9RjSj4Fb5q6hKc",
+   "name": "flow-protocol",
+   "description": "Rian Doris Flow Protocol — governs Dan's entire day through the 4-phase flow cycle, 22 triggers, active recovery, and work compression. Implements the 12-hour high-performance day. Trigger on any mention of flow state, productivity, deep work, focus, morning routine, recovery, energy management, work blocks, or daily structure.",
+   "source": "custom",
+   "updatedAt": "2026-04-06T08:58:34.753804Z"
+  },
+  {
+   "skillId": "skill_01Mcy482fjrzYiGmH6KhgHRP",
+   "name": "growth-loops",
+   "description": "Identify growth loops (flywheels) for sustainable traction. Evaluates 5 loop types: Viral, Usage, Collaboration, User-Generated, and Referral. Use when designing growth mechanisms, building product-led traction, or understanding how growth loops work.",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:39:06.547461Z"
+  },
+  {
+   "skillId": "skill_01YH1SXzWyenWmCVzBfcr9qB",
+   "name": "gtm-motions",
+   "description": "Identify the best GTM motions and tools across 7 motion types: Inbound, Outbound, Paid Digital, Community, Partners, ABM, and PLG. Use when selecting marketing channels, choosing between inbound and outbound strategy, or planning cross-channel campaigns.",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:39:07.426626Z"
+  },
+  {
+   "skillId": "skill_01RGjMkgWfwUWwP8mn7JDyWK",
+   "name": "gtm-strategy",
+   "description": "Create a go-to-market strategy covering marketing channels, messaging, success metrics, and launch timeline. Use when planning a product launch, creating a GTM plan from scratch, or defining a launch strategy for a new market.",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:38:29.261927Z"
+  },
+  {
+   "skillId": "skill_014YXp8MiNLBEiptXmu7Kwg8",
+   "name": "ideal-customer-profile",
+   "description": "Identify the Ideal Customer Profile (ICP) from research data with demographics, behaviors, JTBD, and needs. Use when defining your ICP, analyzing PMF survey data, or understanding who your best customers are.",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:39:08.633147Z"
+  },
+  {
+   "skillId": "skill_015M1ANcNGmcUgYFs6D1q38L",
+   "name": "identify-assumptions-existing",
+   "description": "Identify risky assumptions for a feature idea in an existing product across Value, Usability, Viability, and Feasibility. Uses multi-perspective devil's advocate thinking. Use when stress-testing a feature idea, doing risk assessment, or preparing for assumption mapping.",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:39:21.703914Z"
+  },
+  {
+   "skillId": "skill_01Q7msydgyf3y6594rXGTwhz",
+   "name": "identify-assumptions-new",
+   "description": "Identify risky assumptions for a new product idea across 8 risk categories including Go-to-Market, Strategy, and Team. Use when evaluating startup risks, assessing a new product concept, or mapping assumptions for a new venture.",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:39:22.180065Z"
+  },
+  {
+   "skillId": "skill_01EF7HijSLVb3BnrBqNNSUEu",
+   "name": "interview-script",
+   "description": "Create a structured customer interview script with JTBD probing questions, warm-up, core exploration, and wrap-up sections. Follows The Mom Test principles — no leading questions, no pitching, focus on past behavior. Use when preparing for user interviews, creating interview guides, or planning discovery research.",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:39:23.747819Z"
+  },
+  {
+   "skillId": "skill_01QKUDwU77z9Le3YgrKkdz2t",
+   "name": "karpathy-guidelines",
+   "description": "Behavioral guidelines for writing, editing, and refactoring code that counteract common LLM coding pitfalls identified by Andrej Karpathy — wrong-assumption runs, bloated abstractions, speculative configurability, unsolicited edits to adjacent code, and imperative drift. Four principles. (1) Think Before Coding — surface assumptions, don't guess silently, push back when warranted. (2) Simplicity First — minimum code, no abstractions or features not asked for. (3) Surgical Changes — touch only what the request requires, match existing style. (4) Goal-Driven Execution — define verifiable success criteria and loop. Use whenever the user asks to write, implement, build, edit, refactor, fix, debug, modify, extend, or clean up code in any language. Trigger on 'write', 'implement', 'build', 'add', 'fix', 'refactor', 'clean up', 'modify', 'update', 'extend', or any edit to an existing file. Bias toward caution over speed; use judgment on trivial one-liners. Skip for pure Q&A about code where no code is produced.",
+   "source": "custom",
+   "updatedAt": "2026-04-22T06:31:14.370487Z"
+  },
+  {
+   "skillId": "skill_01XqwhLK4tF3uqM5oVA3u6MG",
+   "name": "knowledge-graph-coworker",
+   "description": "Knowledge-graph AI coworker + GCP deployment specialist. Turns research signals into a persistent queryable graph (Rowboat-inspired Obsidian vault + agent runtime + event bus). Also provides step-by-step GCP Cloud Run optimization: Litestream SQLite replication, multi-stage Docker builds, CI/CD pipelines, cost optimization, security hardening, and monitoring setup. TDD, HITL gates, zero hardcoded values. Notion ticket tracking. Trigger on: \"knowledge graph\", \"coworker agent\", \"AI coworker\", \"Rowboat\", \"vault\", \"GCP\", \"Cloud Run\", \"deployment\", \"Litestream\", \"Docker optimize\", or \"infrastructure\".",
+   "source": "custom",
+   "updatedAt": "2026-04-09T07:55:14.581254Z"
+  },
+  {
+   "skillId": "skill_01NbgbUTSUnoxagg4n29msSL",
+   "name": "lean-canvas",
+   "description": "Generate a Lean Canvas with problem, solution, metrics, cost structure, UVP, unfair advantage, channels, segments, and revenue. Use when exploring a lean startup canvas, testing a business hypothesis, or modeling a new venture.",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:38:28.956226Z"
+  },
+  {
+   "skillId": "skill_01SEVAUd5ciRwT6Pfe75nWsm",
+   "name": "market-segments",
+   "description": "Identify 3-5 potential customer segments with demographics, JTBD, and product fit analysis. Use when exploring market segments, identifying target audiences, evaluating new markets, or learning how to segment a market.",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:39:10.603477Z"
+  },
+  {
+   "skillId": "skill_01G184W1q6f7BeC4mN5HfDZP",
+   "name": "market-sizing",
+   "description": "Estimate market size using TAM, SAM, and SOM with top-down and bottom-up approaches. Use when sizing a market opportunity, estimating addressable market, preparing for investor pitches, or evaluating market entry.",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:38:39.927263Z"
+  },
+  {
+   "skillId": "skill_01D6LkvhLSxFcH3K3a8SgdMq",
+   "name": "marketing-ideas",
+   "description": "Generate 5 creative, cost-effective marketing ideas with channels, messaging, and engagement rationale. Use when brainstorming marketing campaigns, planning product promotion, or looking for creative marketing tactics.",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:39:14.556860Z"
+  },
+  {
+   "skillId": "skill_01NvmyeaWUCAEvQBGTWtXnYJ",
+   "name": "metrics-dashboard",
+   "description": "Define and design a product metrics dashboard with key metrics, data sources, visualization types, and alert thresholds. Use when creating a metrics dashboard, defining KPIs, setting up product analytics, or building a data monitoring plan.",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:39:24.663529Z"
+  },
+  {
+   "skillId": "skill_01MyoZ6Tw31pPDcaktgUJ2XL",
+   "name": "millionaire-autopilot",
+   "description": "Morning + evening autopilot for Dan's life-admin. ACTION-FIRST: actually archives emails via Chrome MCP, actually cleans Downloads/Desktop via computer-use, actually labels and categorizes — then reports what was done. MiroFish 5-layer brain as personal ops engine. Tim Ferriss 4HWW elimination + Napoleon Hill autosuggestion + Goddard night seed. Trigger on: \"morning cycle\", \"evening cycle\", \"autopilot\", \"clean emails\", \"clean inbox\", \"organize files\", \"tidy up\", \"life admin\", \"daily ops\", \"evening prep\", \"inbox zero\", \"directory cleanup\", \"journal organize\", \"calendar cleanup\", \"run autopilot\", \"morning sweep\", \"evening review\", or any request to automate daily personal operations, messy emails/files/directories, or start/end day clean.",
+   "source": "custom",
+   "updatedAt": "2026-04-09T21:58:57.627763Z"
+  },
+  {
+   "skillId": "skill_01MZcQ8qs9BjoASZ1vYDgqtq",
+   "name": "mirofish-research-agent",
+   "description": "Build MiroFish super-agent research missions — Bloomberg-terminal-style JSX agents running the 5-layer brain topology to discover asymmetric opportunities across equities, private companies, and crypto. Produces solution docs BEFORE code, enforces TDD (pytest + vitest), HITL gates, zero hardcoded values. Trigger on: \"MiroFish\", \"research agent\", \"super agent\", \"brain topology\", \"investment research\", \"mosaic research\", \"financial dashboard\", \"Bloomberg style\", \"arbitrage agent\", \"ticker research\", \"private company research\", \"crypto research\", or any request to build an interactive research tool for Social Arb.",
+   "source": "custom",
+   "updatedAt": "2026-04-09T15:45:25.919863Z"
+  },
+  {
+   "skillId": "skill_016QAxN6Wm8189tvr4TB7WzF",
+   "name": "mosaic-arbitrage",
+   "description": "Apply Chris Camillo's mosaic theory and information arbitrage framework to identify asymmetric investment opportunities — across stocks, dropshipping/e-commerce, and crypto — before the mainstream market prices them in. Use this skill whenever the user asks to: research a trend, evaluate a product opportunity, build an investment thesis, identify market vulnerabilities, find undervalued niches, analyse social sentiment vs. ad spend, score a product with STEPPS, time a \"gold rush\" lifecycle, create a trend radar, generate a risk simulation, or produce research reports and interactive dashboards for arbitrage plays. Trigger on any mention of: \"information arbitrage\", \"mosaic theory\", \"Camillo\", \"trend radar\", \"dropshipping thesis\", \"market vulnerability\", \"gold rush\", \"STEPPS\", \"pre-suasion\", or \"10X simulator\".",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:35:49.742721Z"
+  },
+  {
+   "skillId": "skill_01AfUoVPQSKeZLE6opxLxwUk",
+   "name": "north-star-metric",
+   "description": "Define a North Star Metric and 3-5 supporting input metrics that form a metrics constellation. Classify the business game (Attention, Transaction, Productivity) and validate against 7 criteria for an effective North Star. Use when choosing a North Star Metric, setting up a metrics framework, learning about the North Star Framework, or deciding what to measure.",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:38:46.376972Z"
+  },
+  {
+   "skillId": "skill_012eYSevq41U4SBtQuGHkbTk",
+   "name": "opportunity-solution-tree",
+   "description": "Build an Opportunity Solution Tree (OST) to structure product discovery — map a desired outcome to opportunities, solutions, and experiments. Based on Teresa Torres' Continuous Discovery Habits. Use when structuring discovery work, mapping opportunities to solutions, or deciding what to build next.",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:39:25.385796Z"
+  },
+  {
+   "skillId": "skill_0174u36m24hRfTTftMA9nMxM",
+   "name": "outcome-roadmap",
+   "description": "Transform an output-focused roadmap into an outcome-focused one that communicates strategic intent. Rewrites initiatives as outcome statements reflecting user and business impacts. Use when shifting to outcome roadmaps, making a roadmap more strategic, or rewriting feature lists as outcomes.",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:38:52.760031Z"
+  },
+  {
+   "skillId": "skill_015hnwU3MXVPrtNf8w7oo7LA",
+   "name": "overnight-ops",
+   "description": "Autonomous overnight operations cycle for Social Arb. Orchestrates a 5-phase self-improving loop: COLLECT market signals, RESEARCH gaps and opportunities, BUILD highest-priority backlog items, OPTIMIZE existing code, and BRIEF Dan via Notion each morning. Runs twice daily (midnight full cycle, midday light cycle). Uses the Product Backlog as work queue, quality/criteria.md + test suite as guardrails, and automatic rollback on failures. Trigger on: 'overnight', 'run cycle', 'morning briefing', 'autonomous build', 'agent loop', 'continuous improvement', 'self-improving', 'run the agents', or any request to have AI agents work on Social Arb autonomously.",
+   "source": "custom",
+   "updatedAt": "2026-04-05T20:23:59.884729Z"
+  },
+  {
+   "skillId": "skill_01EwcNN2Z2Hmu9Srd6knwPzg",
+   "name": "positioning-ideas",
+   "description": "Brainstorm product positioning ideas differentiated from competitors. Identifies top competitors and generates positioning statements with rationale. Use when developing product positioning, differentiating from competitors, or crafting brand positioning strategy.",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:39:14.790717Z"
+  },
+  {
+   "skillId": "skill_01AAoVY3tS5qjag17KfnDWcU",
+   "name": "pre-mortem",
+   "description": "Run a pre-mortem risk analysis on a PRD or launch plan. Categorizes risks as Tigers (real problems), Paper Tigers (overblown concerns), and Elephants (unspoken worries), then classifies as launch-blocking, fast-follow, or track. Use when preparing for launch, stress-testing a product plan, or identifying what could go wrong.",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:38:53.862247Z"
+  },
+  {
+   "skillId": "skill_019Uwv9Hsy6KmcPgARTwaqwY",
+   "name": "pricing-strategy",
+   "description": "Analyze and design pricing strategies including pricing models, competitive pricing analysis, willingness-to-pay estimation, and price elasticity. Use when setting prices, evaluating pricing models, preparing for a pricing change, or comparing freemium vs paid approaches.",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:38:44.150631Z"
+  },
+  {
+   "skillId": "skill_01EsTosgwsTSR5AfkFM32V8t",
+   "name": "prioritization-frameworks",
+   "description": "Reference guide to 9 prioritization frameworks with formulas, when-to-use guidance, and templates — RICE, ICE, Kano, MoSCoW, Opportunity Score, and more. Use when selecting a prioritization method, comparing frameworks like RICE vs ICE, or learning how different prioritization approaches work.",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:38:56.134926Z"
+  },
+  {
+   "skillId": "skill_01TjawyHzeL9pXJ5gzscSnw2",
+   "name": "prioritize-assumptions",
+   "description": "Prioritize assumptions using an Impact × Risk matrix and suggest experiments for each. Use when triaging a list of assumptions, deciding what to test first, or applying the assumption prioritization canvas.",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:39:25.667423Z"
+  },
+  {
+   "skillId": "skill_01JpkWq81y3r6FWrDGt4tViw",
+   "name": "product-name",
+   "description": "Brainstorm 5 unique, memorable product names with rationale aligned to brand values and target audience. Use when naming a new product, rebranding, or exploring product name ideas.",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:39:15.703260Z"
+  },
+  {
+   "skillId": "skill_01AizYHvBpbWc1SnrRAwT4sh",
+   "name": "product-strategy",
+   "description": "Create a comprehensive product strategy using the 9-section Product Strategy Canvas — vision, segments, costs, value propositions, trade-offs, metrics, growth, capabilities, and defensibility. Use when building a product strategy, creating a strategic plan, or defining product direction.",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:38:23.388197Z"
+  },
+  {
+   "skillId": "skill_01LVFoyafVeKHjcnumXYnQrJ",
+   "name": "prompt-coach",
+   "description": "Enforce Anthropic's 9 prompt-engineering pillars on non-trivial tasks. Auto-detects underspecified prompts (Dan's user prompts AND Claude's subagent/Task prompts) and runs a pillar-by-pillar checklist. For Dan's prompts → HALT and present diagnostic, force Dan to rewrite himself (coaching, not rewriting). For Claude's subagent prompts → silently auto-fix before dispatching the subagent. Triggers when a prompt involves files, deliverables, multi-step work, or ≥3 likely tool calls AND is missing ≥3 of the 9 pillars. Skip for pure conversational Q&A. Pillars are sourced from Anthropic's official prompt engineering canon (docs.anthropic.com/en/docs/build-with-claude/prompt-engineering). Use when: starting any non-trivial task, before invoking the Task/Agent tool with a subagent prompt, when Dan's prompt is vague or missing structure, when about to spend >5 tool calls on a single user request.",
+   "source": "custom",
+   "updatedAt": "2026-05-16T21:23:41.336296Z"
+  },
+  {
+   "skillId": "skill_01PHhXB7fqANJKWyuiw52pJA",
+   "name": "prompt-template",
+   "description": "Return a fillable, use-case-specific prompt template built on Anthropic's 9 prompt-engineering pillars. Companion to prompt-coach — template hands Dan the scaffold, coach diagnoses the filled draft. Detects use case (Claude Code engineering, research/analysis, subagent dispatch via Task/Agent tool, or general) from prompt cues and returns the matching XML scaffold with all 9 pillars as labeled slots. Triggers when Dan asks for \"a template\", \"scaffold this\", \"structure for a prompt\", \"/template\"; when his prompt is one vague sentence; when fewer than 2 of 9 pillars are present (too thin to diagnose); or before invoking Task/Agent tool with a thin briefing. Hands off to prompt-coach for the diagnostic check once Dan fills the template in. Pillars sourced from Anthropic's official prompt-engineering canon.",
+   "source": "custom",
+   "updatedAt": "2026-05-18T17:39:21.335837Z"
+  },
+  {
+   "skillId": "skill_01HUwpLJubU5woeSdzRcZcTy",
+   "name": "release-notes",
+   "description": "Generate user-facing release notes from tickets, PRDs, or changelogs. Creates clear, engaging summaries organized by category (new features, improvements, fixes). Use when writing release notes, creating changelogs, announcing product updates, or summarizing what shipped.",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:38:57.318157Z"
+  },
+  {
+   "skillId": "skill_01YH1xEoTSA1tQtbGnt6Hko7",
+   "name": "retro",
+   "description": "Facilitate a structured sprint retrospective — what went well, what didn't, and prioritized action items with owners and deadlines. Use when running a retrospective, reflecting on a sprint, creating action items from team feedback, or learning how to run effective retros.",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:38:57.246402Z"
+  },
+  {
+   "skillId": "skill_01UUYLAnygd9cgWkRgzVosBN",
+   "name": "sentiment-analysis",
+   "description": "Analyze user feedback data to identify segments with sentiment scores, JTBD, and product satisfaction insights. Use when analyzing user feedback at scale, running sentiment analysis on reviews or surveys, or identifying satisfaction patterns.",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:39:12.753366Z"
+  },
+  {
+   "skillId": "skill_014y4zPW4YwPJ4vnVfwHM3wr",
+   "name": "simcorp-am-excel-export",
+   "description": "Export a SimCorp Dimension Asset Manager layout to Excel for a chosen as-at date, and turn the exported text file into a clean workbook. Use for pulling positions out of Asset Manager, an export that lands as .txt, an empty grid after Load, or trailing junk columns in the sheet.",
+   "source": "plugin",
+   "updatedAt": "2026-09-17T17:47:39.587622Z",
+   "backingPluginId": "plugin_01JUbGKpA52iA1LSJPx3BMoB"
+  },
+  {
+   "skillId": "skill_01E3DwyfDCZNHAXgawYad2Bx",
+   "name": "simcorp-am-weight-layouts",
+   "description": "Asset Manager weight and deviation layouts: the distribution triplet, rescaled key ratios, aggregation and verification.",
+   "source": "plugin",
+   "updatedAt": "2026-09-01T13:32:55.957560Z",
+   "backingPluginId": "plugin_01MThiPr3iXwDuB8x8qSYREE"
+  },
+  {
+   "skillId": "skill_018XEjoZHQU3GgsSVgAp4GsF",
+   "name": "simcorp-ar-approval",
+   "description": "Run, co-pilot, or document the Nicola Annual Review (AR) approval flow in SimCorp Asset Manager NONPROD: load an approval group, build the rescaled-by-household review grid, band the deviation from target, read the position scope split per household, then validate and approve or release the orders. Use for AR Approval, approval groups, Household Orders for Approval, deviation from target review, position scope questions, or UAT and training material for any of these.",
+   "source": "plugin",
+   "updatedAt": "2026-09-02T22:12:56.409019Z",
+   "backingPluginId": "plugin_01Lbz4mqHSRsbkbE89S1cdv8"
+  },
+  {
+   "skillId": "skill_011dETdsXEWvDq4KEEGzLFM8",
+   "name": "simcorp-comm-server",
+   "description": "SimCorp Dimension Communication Server support for Nicola Wealth — triage interface incidents and configure or change any of the 27 Communication Server Setups in this environment. Covers the object chain (Protected File Directory, Setup, Parameter Set, Gateway and Mediator services), the Mediator client (dead letter port, Switchbox log, debug, sandboxes, testbench), config/cartridge/XSLT anatomy, CDL and Gateway commands, SCIn/SCOut message contracts, and a card per solution. Use when a file did not arrive, a message vanished, an import or batch chain stalled, a dead letter queue is filling, a Comm Server will not start or runs but processes nothing, characters are garbled, throughput is slow, or when adding or changing a setup, port, cartridge or configuration parameter. Trigger: comm server, communication server, ComSrv, Mediator, cartridge, CDL, dead letter, Switchbox, protected file directory, parameter set, SCIn, SCOut, DM_ALTS, NW_NBIN, ORDERMATCH, DA_BLOOMBERG, FNDS_SFTP.",
+   "source": "custom",
+   "updatedAt": "2026-08-18T17:34:28.064092Z"
+  },
+  {
+   "skillId": "skill_01MPHDpgEEkpgmwUe61QnAG3",
+   "name": "simcorp-compliance-rules",
+   "description": "Build and govern Compliance Manager rules, with the sub asset class target band as the worked pattern.",
+   "source": "plugin",
+   "updatedAt": "2026-09-14T20:53:42.427395Z",
+   "backingPluginId": "plugin_01HwxT1uXF9TWEgHBFKpSBYA"
+  },
+  {
+   "skillId": "skill_01785XHCqCL1jHA8sbUSRhL1",
+   "name": "simcorp-dashboards",
+   "description": "Design SimCorp Dimension dashboards that monitor an operations area, and write the spec sheet a desk builds from. Covers the dashboard object chain (layout, page collection, canvas, tile, widget, widget configuration), the five display types, filters, conditional formatting, time dependency fields for ageing, record permissions, the services and batch jobs each widget family needs before it shows anything, the widget catalogue per Add menu category, and the alert path through Business Rules Manager and the Alerts Inbox. Carries a monitoring pack per area for cash transfers, FX trades, options, futures, security transfers, mutual fund trades, corporate actions, post trade compliance, real estate redemptions, swaps and crystallizations, the STP transaction window, and Onex redemptions. Use when asked to build, spec, review or troubleshoot a SimCorp dashboard, a canvas, a widget, a monitoring view, an STP monitor, an alerts inbox rule, or when a widget shows no data.",
+   "source": "custom",
+   "updatedAt": "2026-08-25T19:29:17.133162Z"
+  },
+  {
+   "skillId": "skill_012b3boJxMiVud63eZpt3Uh3",
+   "name": "simcorp-data-management-specialist",
+   "description": "Data management specialist for SimCorp Dimension pricing and market data at NWM. Owns the pricing value chain, price imports into PRICES, price types, price methods (Domain-67 catalogue), pricing profiles and definition ladders, key ratio mappings, PKR bindings and the standing data quality controls. Trigger on price type, price method, pricing profile, pricing definition, ladder, max age, key ratio mapping, orphan price, missing price, stale price, price import, ALTS_AM, MAIN profile, price check, PRICHKERRORS, valuation source, where does this price come from, why is there no market value, Fund Admin pricing question, price data governance, domain codes, Show Values.",
+   "source": "custom",
+   "updatedAt": "2026-08-28T09:44:49.618405Z"
+  },
+  {
+   "skillId": "skill_011DBQ9HcAEvMEmBnqNJfiMj",
+   "name": "simcorp-dex-validator",
+   "description": "Validate a SimCorp Dimension DEX / data-extraction design against the real SCDAT schema BEFORE anything is configured — deterministically, not by trial and error. Confirms every table exists, every field is on the right table, every join is a real foreign key, every coded column has a decode, and flags empty-result and cardinality risk from actual row counts. Replaces \"NEED PICKER\" guessing: the indexed schema IS the picker. Use whenever a DEX / extraction / .dat / lineage design names tables, fields, joins or formulas and you need to prove it will run. Trigger: validate extraction, validate DEX, check tables/joins, will this extract work, confirm field names, resolve SimCorp table/column, FK join check.",
+   "source": "custom",
+   "updatedAt": "2026-07-31T09:42:08.246847Z"
+  },
+  {
+   "skillId": "skill_01WbNEaTscg53kUaSoBkc94X",
+   "name": "simcorp-doc-search",
+   "description": "Search Dan's SimCorp consulting documentation corpus on his Mac: 5,982 indexed documents across vendor manuals, Nicola client files, config exports and his own output. Use whenever a SimCorp field, window, service, parameter or manual section needs grounding.",
+   "source": "plugin",
+   "updatedAt": "2026-09-15T13:26:15.696361Z",
+   "backingPluginId": "plugin_01PpT7UN386MqMDUY8g2vwx8"
+  },
+  {
+   "skillId": "skill_01Tz4vCtvXMijJjeurMVMpEh",
+   "name": "simcorp-extraction",
+   "description": "SimCorp Dimension data extraction designer. Designs DEX configs, DFS feeds, .dat file specs, and cross-table data pulls using the MiroFish 3-layer architecture: GraphRAG Digital Twin (queries the Notion Solution Architecture for tables, FKs, ER diagrams), Technical Committee Swarm (Extraction Architect + DB Optimization Agent + .DAT Format Auditor in dialogue), Simulation Sandbox (empty result, cardinality blow-up, schema drift, code table mismatch checks). Outputs extraction definition + .dat spec + dissent log + risk register to Notion. Sister to simcorp-super-agent (Q&A) and simcorp-notebooklm-bridge (NotebookLM hand-off). Trigger on: data extraction, extraction definition, .dat file, .dat format, DEX, DEX config, DFS, DFS feed, Bloomberg feed, file format spec, field mapping, extract X to .dat, design extract, cross-table pull, FK traversal extract, DWH extract, MiroFish extraction, GraphRAG extraction, extraction architect, format auditor, cardinality blow-up, schema drift check.",
+   "source": "custom",
+   "updatedAt": "2026-04-10T12:31:20.233510Z"
+  },
+  {
+   "skillId": "skill_01RjCZULQehKtce2H7tLY4AQ",
+   "name": "simcorp-fo-flow-architect",
+   "description": "Build front office flow architecture packs for SimCorp Dimension with measured data overlays that show where time is actually spent. Covers the full FO flow set (data preparation, simulation to order, order lifecycle and auxiliary jobs, compliance validation, rebalancing, extraction and feeds, transaction processing and matching, cash management). Every diagram node must trace to a named manual section and every overlay number to an admissible evidence file; anything else is refused or marked NOT MEASURED. Produces a self contained HTML architecture pack and a PPTX deck in the Nicola theme. Use when asked to map an FO flow, overlay performance results on an architecture, locate a bottleneck, or extend the measured flow set.",
+   "source": "custom",
+   "updatedAt": "2026-08-24T16:39:41.638652Z"
+  },
+  {
+   "skillId": "skill_0155RhaxuYX77RUMkbfbtefr",
+   "name": "simcorp-mdv",
+   "description": "Market Data Validation in SimCorp Dimension at Nicola: decode a Validate Market Data run, decide whether a warning is a break or a known exception, and change the rules, segments, severity or batch timing safely. Use when someone asks about MDV, the daily price exception run, missing or stale or variance price warnings, the MDV rule set or setups, the exception list, which exceptions belong in the daily check, who owns a missing price, or why the check produced nothing or produced hundreds of rows.",
+   "source": "plugin",
+   "updatedAt": "2026-09-15T13:56:30.252506Z",
+   "backingPluginId": "plugin_01MYjm4PGprCiu9W25f6BfhP"
+  },
+  {
+   "skillId": "skill_016RP7nwGtYFxPPhpjKi6MsV",
+   "name": "simcorp-mf-order-flow",
+   "description": "Run, guide, or document the end-to-end Nicola mutual fund order flow in SimCorp Dimension NONPROD (26.04 TEST via Citrix). Covers the full chain in one pass. Load the Core UAT layout in Asset Manager, load a portfolio data selection (NWM250 family), filter sub asset classes in Portfolio Summary, simulate a rebalance by editing the Variance column, create fund trade orders with Assign Values, validate and Approve/Release them in the Order Outbox, execute the TP_AVISO_MF batch job group, and verify the Aviso outbound MutualFund CSV on the TEST-ActiveData share. Use whenever the task mentions creating mutual fund orders, fund trades, rebalancing NWM portfolios, the Order Outbox, Aviso outbound files, TP_AVISO batch jobs, or testing the order-to-export chain in the Nicola UAT environment, even if only one stage is named. Also use when writing UAT test steps, training material, or defect repro steps for any part of this chain.",
+   "source": "custom",
+   "updatedAt": "2026-08-27T12:25:28.719089Z"
+  },
+  {
+   "skillId": "skill_01N4GvVuQr3yyLRGDGNE37dV",
+   "name": "simcorp-notebooklm-bridge",
+   "description": "Notion-as-data-bus hand-off between NotebookLM (research synthesis brain) and Claude in Cowork (action brain) for SimCorp consulting work. NotebookLM holds large multi-doc corpora and produces synthesis; Claude in Cowork holds MCP tools and ships extractions, Wiki pages, and solution docs. They cannot talk directly, so Notion is the neutral middle layer both can read and write. Defines three hand-off protocols (NLM→Claude, Claude→NLM, Wiki bidirectional sync) using three Notion surfaces (Q&A Log, Wiki, Solution Architecture). Sister to simcorp-super-agent (Q&A) and simcorp-extraction (extraction design). Trigger on: NotebookLM, NLM hand-off, NotebookLM bridge, NotebookLM brief, research synthesis, paste research into Notion, push brief to NotebookLM, Notion data bus, research-to-action hand-off, multi-corpus research, SimCorp source document research.",
+   "source": "custom",
+   "updatedAt": "2026-04-10T12:31:25.076750Z"
+  },
+  {
+   "skillId": "skill_01NbTRXz1nGaEsAdeLr3MAA5",
+   "name": "simcorp-om-runtime-triage",
+   "description": "SimCorp Dimension Order Manager runtime triage. Use when orders are released in SimCorp Dimension but Order Manager reports them as not received, when the Order Outbox warns that Order Manager services might not be started, when the Order Manager Data Store cluster is degraded or shows nodes as DEAD, when Order Manager services show green in Service Manager yet nothing flows, when FIX sessions or the FIX Router misbehave, when no transactions are created after allocation, or when a Service Manager log export (xlsx or csv with Date, Message, Message type) has to be turned into a timeline and a finding. Grounded in Front Office Operations September 2025 chapter 6.5 and Front Office Configuration September 2025 sections 16.4, 16.5 and 18. Triggers on Order Manager not receiving orders, Data Store service, EventStore, Gossip send failed, Workflow service, Order Manager Message Service, FIX session does not start, End of Day sequence numbers, Operations Console, Force finish.",
+   "source": "plugin",
+   "updatedAt": "2026-09-08T06:52:03.884399Z",
+   "backingPluginId": "plugin_014soufd32jeaVJS1GXCeNWC"
+  },
+  {
+   "skillId": "skill_01CsTFbykfBRfAwWBY4Mif5i",
+   "name": "simcorp-order-impact-check",
+   "description": "Set up and read the SimCorp Asset Manager AR approval grid so a pending order's impact on household asset allocation is visible: the Analysis Properties settings, the reload after changing them, how an Order row reads including a sell as a negative weight, the roll up arithmetic, and the checklist for when an order does not appear.",
+   "source": "plugin",
+   "updatedAt": "2026-09-14T13:48:43.557194Z",
+   "backingPluginId": "plugin_01QXgYTEnJmu8vtGd7G8zHgn"
+  },
+  {
+   "skillId": "skill_01P7qmhRqPozq4RvbMx3WMT9",
+   "name": "simcorp-pd-lifecycle",
+   "description": "Private Debt lifecycle events in SimCorp Dimension for Nicola Wealth — the Loan Facility object model (Party → Loan Facility → Contract → Transaction → Position), the twelve lifecycle events and which named Create Loan Facility Transactions setup books each one, the transaction-cost codes, the batch job group that creates the transactions, secondary trading via Trade Manager and Settle Loan Facilities, and where results show in Asset Manager. Use when asked what happens on a drawdown, paydown, repricing, spread change, combine/split, commitment increase/decrease or expiry; which LF_ setup or transaction code applies; whether an event moves cash; or how the facility/contract/position levels relate. Trigger: PD lifecycle event, loan facility transaction, LF_DRAW_PAYD, LF_REPRICE, LF_SPREAD_CHANGE, LF_SPL_COM, LF_EXPIRE, LF_CREATE_TRXNS, drawdown, paydown, repricing, rollover, combine, split, commitment increase, expire, Settle Loan Facilities, loan contract, private debt transaction code.",
+   "source": "custom",
+   "updatedAt": "2026-08-18T14:56:14.163225Z"
+  },
+  {
+   "skillId": "skill_01SWmiCLjeyMbgFkg2UVopLW",
+   "name": "simcorp-pd-migration",
+   "description": "The monthly Private Debt static-data migration into SimCorp Dimension for Nicola Wealth — building the PD1 Facilities, PD2 Contracts and PD3 OID templates from the migration database, what each template's key and mandatory columns are, uploading them, pulling the post-import extract, reconciling SimCorp against SS&C position data, classifying breaks as Match level 1 or Deviation, and issuing a delta or reupload. Use when asked what goes in PD1/PD2/PD3, which column carries a value, why an upload failed or deviated, how a facility moved between portfolios, or how the month's recon is evidenced. Trigger: PD migration, PD1 facilities, PD2 contracts, PD3 OID, SCD template, upload checks, delta file, reupload, MIGR, position recon, list of deviations, SS&C recon, loan movement, PDDLSPV_A, NWM407_A, PDSMAISPV_A.",
+   "source": "custom",
+   "updatedAt": "2026-08-18T14:56:18.890877Z"
+  },
+  {
+   "skillId": "skill_01RqtRzAEHvD2HegNCr7fVda",
+   "name": "simcorp-pd-notices",
+   "description": "The Nicola Wealth Private Debt notice workflow end to end — collecting notices from the Investment Ops mailbox and lender portals, filing them in the SharePoint SCD Notice Database by month, portfolio and facility ID, extracting the data into the monthly Migration Database, and keying the event into SimCorp. Carries the four notice event types and the field set each populates, the portfolio folder map, the human-review and linking steps, and the target-state AI classifier design. Use when asked what a private debt notice contains, which fields to pull from a Rate Set / Borrowing / Principal Payment / Margin Change notice, how notices are filed or linked, what the Migration Database columns mean, or how the document classifier is meant to work. Trigger: PD notice, loan notice, rate set notice, borrowing notice, principal payment notice, margin change notice, notice extraction, Loan Notice Extractor, notice database, migration database row, PD classifier, Copilot Studio classifier, AI intake.",
+   "source": "custom",
+   "updatedAt": "2026-08-18T14:56:16.586311Z"
+  },
+  {
+   "skillId": "skill_01Jj6hKeL3T667ARP7Lp8H6c",
+   "name": "simcorp-pd-valuation-cash",
+   "description": "Private Debt valuation, OID and cash management in SimCorp Dimension for Nicola Wealth — the three pricing sources and their pricing definitions, the MidCap price import chain and its batch jobs, the no-fall-through pricing gotcha, the two OID treatments (book value versus unearned revenue amortised through ALM), the Loan Facilities Cash Flow Calculation and exactly what it includes and excludes, and the Wells Fargo Call Money credit facility with its borrow, repay and interest transaction codes. Use when asked how a loan facility is priced, why a price is zero or stale, where MidCap prices come from, how OID is amortised, what the cash-flow forecast covers, or how fund-level borrowing is booked. Trigger: PD pricing, pricing source, QUOTE AT_COST PAR, MidCap price file, AGM_SSC, DM_NW_MD_LF_PRICE, Explain Price Search, OID, unearned revenue, LN_DEF_REV, LN_BV_ADJ, fund service cost, LF_CASH_FLOW, loan facilities cash flows, Call Money, WdrMoney, DepMoney, AS_CM_INT, Wells Fargo credit facility, LoanMktValue.",
+   "source": "custom",
+   "updatedAt": "2026-08-18T14:56:21.030517Z"
+  },
+  {
+   "skillId": "skill_01CGgs1qRqWL3QWj8UQkFR5v",
+   "name": "simcorp-performance-specialist",
+   "description": "SimCorp Dimension Performance specialist — TWR calc, NAV-based Fund-of-Fund performance, Model Portfolio decomposition & attribution, SAAM/TAA benchmark weighting, shadow-asset-portfolio Performance designs (NAV Performance v2 at Nicola Wealth). Sister skill to simcorp-super-agent — use THIS one whenever the question is about how a TWR/return number is calculated, whether an expense/fee/OID/service-cost item affects performance, Model Portfolio tagging on performance-relevant positions, cash-bucket distortion in decomposition, or target-weight allocation. Trigger on Performance, TWR, NAV Performance, Fund of Fund performance, Model Portfolio, MP tagging, decomposition, SAAM, TAA, IAP, InvestApp, shadow asset portfolio, PE_NAV, Net/Gross performance, benchmark weight, 'does this affect performance', cash bucket, FI sleeve, attribution. Even a bare 'performance' mention should check this skill first — these mechanics are frequently misunderstood.",
+   "source": "custom",
+   "updatedAt": "2026-08-17T21:12:27.977441Z"
+  },
+  {
+   "skillId": "skill_01FKaKBDcibDmUiJX8oFGmsT",
+   "name": "simcorp-pricing-precedence",
+   "description": "Test which pricing profile row SimCorp Dimension actually applies to a position: capture a profile and its segments in the Citrix client (PROD read only), build the expected coverage matrix, read the applied definition in Pricing and Key Ratios Calculations, diff and diagnose. Use for pricing profile precedence, segment order, why the wrong pricing definition or price won, holding key versus instrument segments, MAIN profile coverage, or segment membership tests.",
+   "source": "plugin",
+   "updatedAt": "2026-09-06T19:32:34.597949Z",
+   "backingPluginId": "plugin_01WFXq9gVwRLdygdf6aCmY9T"
+  },
+  {
+   "skillId": "skill_01JejCdPoVM2dunDR1ERE8Hv",
+   "name": "simcorp-recon-breaks",
+   "description": "Reconciliation break resolution in SimCorp Dimension for Nicola Wealth. Covers the seven reconciliation status levels and the tolerances that produce them, the four recon domains (custodial cash, position and transaction against Aviso, BMO, BMO ETD, Desjardins, TD, TD ETD and NBIN; migration recon against SS and C; NAV and variance recon; alternatives, private debt and accrued interest), a thirty eight code classification taxonomy, and the ten stage process to triage, classify, investigate, fix, document, re run and close every break. Use whenever the user mentions a recon break, deviation, no match, match level, break ID, Reconciliation Manager, Results Monitor, an unmatched position or cash balance, a custodian file that will not match, an opening balance check, or asks how to categorise, investigate, fix, age, escalate or sign off recon items, how the reconciliation is wired into the daily portfolio and fund event workflow, or asks for a recon architecture or diagram.",
+   "source": "custom",
+   "updatedAt": "2026-08-25T17:11:17.419652Z"
+  },
+  {
+   "skillId": "skill_01WoUTeydNURdrxXAuU3sg7q",
+   "name": "simcorp-service-platform",
+   "description": "SimCorp Dimension Service Platform and Service Manager specialist. Covers the Service Manager applet, automation service models and the Service Dependency Editor, operation mode, starting and stopping and blocking services, blacklisting and recovery, service capabilities and service tag mapping, rebalancing and scaling, the Service Control Utility, service agent installation, firewall and fixed port setup, and the service catalogue with service type IDs. Use when a service will not start, a service is stuck in Pending Actions, an automation model has to be built or applied or corrected, a service is blacklisted or blocked or stale or faulted, agents are overloaded, the platform needs a restart, or someone asks which model is active. Triggers on Service Manager, Service Platform, service agent, automation model, Service Dependency Editor, ScdSvcCtl, ScdSvcAgent, pending actions, blacklisted, blocked service, maintenance mode, load index, rebalancing, Order Manager services will not start.",
+   "source": "custom",
+   "updatedAt": "2026-08-24T20:33:45.918618Z"
+  },
+  {
+   "skillId": "skill_019MDGzV9JzpwEs7GvoZQo3n",
+   "name": "simcorp-service-tracing",
+   "description": "Guide and verify the SCD Service Manager tracing workflow: stop AMMSG calc services, restart with APL, DB and application tracing at startup, then stop tracing and fetch the files.",
+   "source": "plugin",
+   "updatedAt": "2026-08-31T20:45:50.831162Z",
+   "backingPluginId": "plugin_019ny1TnSu3v4razWexG1wr7"
+  },
+  {
+   "skillId": "skill_01Q4iyeivqbYZDtUYgEWojar",
+   "name": "simcorp-super-agent",
+   "description": "SimCorp Dimension consulting Q&A core. Answers questions about config, formulas, modules, fund admin, NAV, alternatives, PE, lookthrough, PELP, code tables, and client setups by routing to 8 specialist personas, querying Notion Wiki + Solution Architecture, and learning from human feedback. Generates Wiki pages and solution documents. For .dat / DEX / DFS / extraction design work, defer to simcorp-extraction. For NotebookLM hand-off, defer to simcorp-notebooklm-bridge. Trigger on: SimCorp, Dimension, fund admin, NAV, lookthrough, alternatives, PELP, PE field, dropdown, formula, SGC, COND_DEFAULT, preceding convention, Last360, code table, client setup, solution document, Wiki page, knowledge base, SuperAgent, process Notion inbox, promote Wiki, generate deliverables, SCDAT module, ER diagram, hub table, FK dependency, AMCM, AICOMPONENTS, AIASSETS, Diana, Erhan.",
+   "source": "custom",
+   "updatedAt": "2026-04-10T12:31:14.624468Z"
+  },
+  {
+   "skillId": "skill_015SD2cELAhc1Tdbmn9HCGDt",
+   "name": "social-arb-context-arch",
+   "description": "Context-aware plug-and-play architecture for Social Arb. Any AI agent (Claude, Cursor, custom MiroFish brains, overnight-ops worker) can register via MCP, introspect the live ontology, query the unified knowledge graph (episodic + semantic + structural memory), and write research findings back with HITL gates. Inspired by RushDB's three-memory model. Use when wiring a new research agent into Social Arb, designing context surfaces for agent consumption, extending the MCP gateway, debugging agent-KG interactions, building tickets in the Context-Aware Architecture scrum board, or running the 3-gate HITL review flow (Design / Mid-build / Pre-merge).",
+   "source": "custom",
+   "updatedAt": "2026-04-15T08:40:54.488297Z"
+  },
+  {
+   "skillId": "skill_01EL1Mq1rTyoSgtJeJvUqovu",
+   "name": "sprint-plan",
+   "description": "Plan a sprint with capacity estimation, story selection, dependency mapping, and risk identification. Use when preparing for sprint planning, estimating team capacity, selecting stories, or balancing sprint scope against velocity.",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:38:42.840998Z"
+  },
+  {
+   "skillId": "skill_012gL5PoKVP9eSE9oDMKefa7",
+   "name": "sql-queries",
+   "description": "Generate SQL queries from natural language descriptions. Supports BigQuery, PostgreSQL, MySQL, and other dialects. Reads database schemas from uploaded diagrams or documentation. Use when writing SQL, building data reports, exploring databases, or translating business questions into queries.",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:38:51.011619Z"
+  },
+  {
+   "skillId": "skill_016fUL8TpQyfUCRpZ3jTux6J",
+   "name": "stakeholder-map",
+   "description": "Build a stakeholder map using a power/interest grid, identify communication strategies per quadrant, and generate a communication plan. Use when managing stakeholders, preparing for a launch, aligning cross-functional teams, or planning stakeholder engagement.",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:38:59.027248Z"
+  },
+  {
+   "skillId": "skill_015nEjyuvHiPUmbQ3QqX3uY1",
+   "name": "substack-archive",
+   "description": "Download and maintain a local offline archive of Substack publications the user subscribes to, saving each post as a PDF. Handles paywalled posts using the user's own session cookie, tracks multiple publications, and syncs incrementally so re-runs only fetch new posts. Use this skill whenever the user mentions archiving, backing up, downloading, scraping, or saving Substack posts or newsletters, wants offline copies of a newsletter they pay for, asks to \"grab everything from\" a Substack, or wants to add a new publication to their archive or refresh an existing one. Also use when the user asks what is in their newsletter archive or which publications are being tracked.",
+   "source": "custom",
+   "updatedAt": "2026-08-10T13:24:50.918093Z"
+  },
+  {
+   "skillId": "skill_01AiTKafEXkTKZriZYTeefRw",
+   "name": "summarize-meeting",
+   "description": "Summarize a meeting transcript into structured notes with date, participants, topic, key decisions, summary points, and action items. Use when processing meeting recordings, creating meeting notes, writing meeting minutes, or recapping discussions.",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:38:59.871698Z"
+  },
+  {
+   "skillId": "skill_01S1P9txgfCZr98igP1nPLnj",
+   "name": "swot-analysis",
+   "description": "Perform a detailed SWOT analysis — strengths, weaknesses, opportunities, and threats with actionable recommendations. Use when doing strategic assessment, competitive analysis, or evaluating a product or business position.",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:38:44.414019Z"
+  },
+  {
+   "skillId": "skill_01LA72LQa7AtejTHmknNmmNK",
+   "name": "test-scenarios",
+   "description": "Create comprehensive test scenarios from user stories with test objectives, starting conditions, user roles, step-by-step actions, and expected outcomes. Use when writing QA test cases, creating test plans, defining acceptance tests, or preparing for feature validation.",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:39:01.278672Z"
+  },
+  {
+   "skillId": "skill_01WSKAcrte1C8s2C5Nm5zBcb",
+   "name": "user-personas",
+   "description": "Create refined user personas from research data — 3 personas with JTBD, pains, gains, and unexpected insights. Use when building personas from survey data, creating user profiles from research, or segmenting users for product decisions.",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:38:40.890304Z"
+  },
+  {
+   "skillId": "skill_018E3TV79FdckBGYsiVeA7Kg",
+   "name": "user-segmentation",
+   "description": "Segment users from feedback data based on behavior, JTBD, and needs. Identifies at least 3 distinct user segments. Use when segmenting a user base, analyzing diverse user feedback, or building a segmentation model.",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:39:13.665154Z"
+  },
+  {
+   "skillId": "skill_01FD9eWgYtg4JFb1WDdiAPrp",
+   "name": "user-stories",
+   "description": "Create user stories following the 3 C's (Card, Conversation, Confirmation) and INVEST criteria with descriptions, design links, and acceptance criteria. Use when writing user stories, breaking down features into backlog items, or defining acceptance criteria.",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:39:04.070927Z"
+  },
+  {
+   "skillId": "skill_01Ux9vGVRCQs16wtEpq82x7c",
+   "name": "value-prop-statements",
+   "description": "Generate value proposition statements for marketing, sales, and onboarding from existing value propositions. Use when writing marketing copy, creating sales messaging, or crafting onboarding messages.",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:39:16.745233Z"
+  },
+  {
+   "skillId": "skill_01Axt8u3tXNLa2GncFpdCZzE",
+   "name": "value-proposition",
+   "description": "Design a detailed value proposition using a 6-part JTBD template — Who, Why, What before, How, What after, Alternatives. Use when creating a value proposition, analyzing customer value delivery, or articulating why customers should choose your product.",
+   "source": "custom",
+   "updatedAt": "2026-03-06T10:38:45.093043Z"
+  },
+  {
+   "skillId": "skill_018xDL2SC89TAxCZKVN5apVf",
+   "name": "website-dev-team",
+   "description": "Deploys a 7-agent website development team using MiroFish swarm-intelligence architecture: Orchestrator (ReportAgent), PM, Architect, Designer, Frontend Dev, Backend Dev, QA/Launch. Each agent has a defined ontology, reads from a shared GraphRAG knowledge graph (decisions.md), and activates on a temporal phase schedule with mandatory HITL gates.\nUse whenever the user wants to build a website, web app, SaaS, landing page, or coordinate an AI dev team front to back. Trigger on: \"build a website\", \"web app\", \"landing page\", \"SaaS build\", \"dev team\", \"agent team\", \"front to back\", \"full stack build\", \"agentic dev team\", or \"MiroFish architecture\". Seven agents, five HITL gates, one shared knowledge graph, always-clean git, and a live Notion PM journey doc with mermaid architecture diagrams.",
+   "source": "custom",
+   "updatedAt": "2026-04-10T08:25:23.438690Z"
+  }
+ ]
+}
