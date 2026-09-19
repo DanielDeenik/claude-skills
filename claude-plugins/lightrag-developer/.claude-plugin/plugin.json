@@ -1,0 +1,11 @@
+{
+  "name": "lightrag-developer",
+  "description": "LightRAG developer co-pilot — graph-based RAG framework setup, configuration, querying, storage backends (PostgreSQL, Neo4j, Milvus, Qdrant, Redis, MongoDB, OpenSearch, Faiss, Memgraph), LLM providers (Anthropic/Voyage AI, Gemini/Vertex AI, OpenAI, Ollama), Docker deployment, debugging, and optimization. Complete code patterns and working examples.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Dan"
+  },
+  "license": "MIT",
+  "keywords": ["lightrag", "rag", "graph-rag", "knowledge-graph", "retrieval", "anthropic", "gemini", "embeddings", "vector-search", "developer"],
+  "skills": ["./.claude/skills/lightrag"]
+}

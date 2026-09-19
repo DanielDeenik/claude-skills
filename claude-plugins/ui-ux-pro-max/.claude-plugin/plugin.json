@@ -1,0 +1,11 @@
+{
+  "name": "ui-ux-pro-max",
+  "description": "All-in-one UI/UX design intelligence. 50+ styles, 161 palettes, 57 font pairings, 25 charts, 10 stacks. Plus: logo generation (55 styles), corporate identity (50 deliverables), banner design (22 styles), icon design (15 styles), HTML presentations, brand identity, design tokens, shadcn/ui + Tailwind styling. One skill, zero overlap.",
+  "version": "3.0.0",
+  "author": {
+    "name": "nextlevelbuilder"
+  },
+  "license": "MIT",
+  "keywords": ["ui", "ux", "design", "styles", "typography", "color-palette", "accessibility", "charts", "components", "brand", "logo", "banner", "icons", "slides", "design-tokens"],
+  "skills": ["./.claude/skills/ui-ux-pro-max"]
+}
