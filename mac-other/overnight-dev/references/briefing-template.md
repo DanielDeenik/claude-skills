@@ -1,0 +1,173 @@
+# Briefing Template — Overnight Brief to Notion
+
+## Overview
+
+The briefing is the primary communication channel between the overnight swarm and Dan. It must be comprehensive enough that Dan knows exactly what happened, what needs attention, and what to do next — without having to dig through logs.
+
+## Where to Write
+
+**Primary:** Create a new page under Research Hub in Notion (`3127772f-a7ae-8164-a661-fb85c6dad3c9`)
+**Fallback:** If Notion is unreachable, write to `docs/daily-briefs/{YYYY-MM-DD}.md`
+
+**Title:** `Overnight Brief — {YYYY-MM-DD}`
+
+## Template
+
+```markdown
+# Overnight Brief — {date}
+
+## Swarm Summary
+
+| Metric | Value |
+|--------|-------|
+| Cycle duration | {start_time} → {end_time} ({duration}) |
+| Agents spawned | {total} ({implementers} implementers, {reviewers} reviewers) |
+| Backlog items attempted | {attempted} |
+| Items completed | {completed} ✅ |
+| Items blocked | {blocked} ❌ |
+| Items skipped (needs clarification) | {skipped} ⚠️ |
+| Items proposed by agents | {proposed} (awaiting your review) |
+| Knowledge graph | +{new_entities} entities, +{new_relationships} relationships |
+| Tests | {test_count} passing ({delta} vs. last cycle) |
+
+## Build Log
+
+### Completed ✅
+
+[For each completed item:]
+
+**{item_title}** (Priority: {priority})
+- Implementer: {persona_description}
+- Review rounds: {count} ({spec_result}, {quality_result})
+- Branch: `overnight/{date}-{slug}` → merged to main
+- Commit: {commit_hash}
+- What was built: {1-2 sentence summary}
+- Learnings captured: {list of graph entities created/updated}
+
+### Blocked ❌
+
+[For each blocked item:]
+
+**{item_title}** (Priority: {priority})
+- Implementer: {persona_description}
+- Failed at: {spec_review | quality_review | implementation}
+- Root cause: {explanation}
+- Review loop count: {count} (max 3 reached)
+- Branch: `overnight/{date}-{slug}` → discarded
+- **Action needed:** {what Dan needs to do — clarify spec, simplify task, etc.}
+
+### Skipped ⚠️
+
+[For each skipped item:]
+
+**{item_title}**
+- Reason: {needs clarification | XL effort | ambiguous spec}
+- Question for Dan: {specific question the swarm couldn't answer from memory}
+- Graph search results: {what was found in memory — why it wasn't sufficient}
+
+## Market Signals
+
+| Metric | Value |
+|--------|-------|
+| Signals collected | {count} |
+| New theses (pending review) | {count} |
+| Pipeline errors | {count or "None"} |
+
+**Top divergence opportunities:**
+1. {symbol}: {divergence_description}
+2. {symbol}: {divergence_description}
+3. {symbol}: {divergence_description}
+
+## Discoveries (Agent-Proposed Backlog Items)
+
+Items the Discovery Agent found and proposed. **These are NOT built yet — they need your review.**
+
+[For each proposed item:]
+
+**{proposed_title}** (Suggested: {priority}, Effort: {estimate})
+- Why it matters: {reasoning}
+- Graph evidence: {which entities support this discovery}
+- Impact: {what improves if this is built}
+
+→ **Review in Notion:** [link to backlog filtered by Status = "Needs Review"]
+
+## Decisions Pending
+
+Things the swarm encountered but couldn't resolve from memory. **Your input will be stored as DECISION or CORRECTION entities for future cycles.**
+
+[For each pending decision:]
+
+**{question}**
+- Context: {why this came up}
+- Memory search: {what was found, what was missing}
+- Options the swarm considered: {if any}
+- Recommended: {agent's best guess, if it has one — marked as uncertain}
+
+## Knowledge Graph Updates
+
+**New entities created tonight:**
+- {type}: {title} — {1-line description}
+- ...
+
+**Entities updated:**
+- {type}: {title} — {what changed}
+- ...
+
+**New relationships:**
+- {from} --{type}--> {to}
+- ...
+
+**Graph totals:** {total_entities} entities, {total_relationships} relationships
+
+## Backlog Health
+
+| Status | Count |
+|--------|-------|
+| Approved (ready to build) | {count} |
+| Backlog (unprioritized) | {count} |
+| Needs Review (agent-proposed) | {count} |
+| Needs Clarification | {count} |
+| In Progress | {count} |
+| Blocked | {count} |
+| Done (all time) | {count} |
+
+{if approved < 3:}
+⚠️ **Backlog is thin.** The swarm had fewer than 3 approved items tonight. Load up detailed items for tomorrow — the more detail you provide in descriptions and acceptance criteria, the better the swarm builds.
+{endif}
+
+## Platform Health
+
+| Component | Status |
+|-----------|--------|
+| Signal DB | {status} ({signal_count} signals, {mosaic_count} mosaics, {thesis_count} theses) |
+| Reddit collector | {status} |
+| Twitter collector | {status} |
+| Pipeline | Last run: {timestamp} |
+| Tests | {pass_count} passing, {fail_count} failing |
+| Knowledge graph | {entity_count} entities, {relationship_count} relationships |
+
+## Optimization
+
+{if optimization ran:}
+**Improvement made:** {description}
+- File: {file_path}
+- Tests: {before_count} → {after_count} (no regression)
+- Committed: {commit_hash}
+{else:}
+No optimization this cycle (time limit or no opportunities found).
+{endif}
+
+---
+
+*Generated by Overnight Dev Swarm — Cycle {cycle_number}*
+*Next cycle: tonight at midnight*
+```
+
+## Writing Guidelines
+
+1. **Be specific, not vague.** "Added retry logic to Reddit collector" not "Made improvements."
+2. **Link to Notion items** where possible so Dan can click through.
+3. **Highlight action items** — what Dan needs to DO, not just what happened.
+4. **Surface questions prominently** — the Decisions Pending section is critical for the learning loop.
+5. **Show graph growth** — Dan should see the knowledge base compounding over time.
+6. **Backlog health is a call to action** — if it's thin, say so clearly.
