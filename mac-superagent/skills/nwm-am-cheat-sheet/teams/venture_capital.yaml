@@ -1,0 +1,28 @@
+# Venture Capital cheat sheet config — PLACEHOLDER
+# Status: awaiting Dan's screenshots + verified config values.
+
+team:
+  key: VentureCapital
+  name: Venture Capital
+
+config:
+  analysis_properties: "[TBC — confirm with Chris]"
+  default_layout: "[TBC — confirm saved Layout name with Chris]"
+  data_selector: "[TBC — likely 'Venture Capital All' or NWM530_A]"
+  attribute_columns:
+    - Investment link
+    - Investment link name
+    - Stage
+    - Series / Class (VC-DIRECT)
+    - Currency
+    - Cumulative drawn
+    - Cumulative distributed
+    - GP / Issuer
+    - Vintage
+    - Alt Reporting Frequency
+
+screenshots:
+  am_overview: venturecapital_am_overview.jpg
+  portfolio_sheet: venturecapital_layout.jpg
+  cash_viewer: venturecapital_cash_viewer.jpg
+  cash_viewer_options: null

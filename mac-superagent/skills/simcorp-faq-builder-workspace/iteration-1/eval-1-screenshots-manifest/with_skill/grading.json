@@ -1,0 +1,19 @@
+{
+  "expectations": [
+    {
+      "text": "Extracts and names the 8 screenshots",
+      "passed": true,
+      "evidence": ""
+    },
+    {
+      "text": "Produces a step->image placement manifest",
+      "passed": true,
+      "evidence": "[[IMAGE]] markers + table."
+    },
+    {
+      "text": "Flags the 3 Bloomberg CID images as unrecoverable",
+      "passed": true,
+      "evidence": "Checked doc internals, found 3 r:link CID images, AND flagged the script gap."
+    }
+  ]
+}

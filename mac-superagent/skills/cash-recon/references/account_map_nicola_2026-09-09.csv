@@ -1,0 +1,12 @@
+template_account,simcorp_account,portfolio,currency,source
+504110L1,110 AVS CAD,NWM110_A,CAD,csh sheet row NWM110 CAD plus Cash Viewer row 110 AVS CAD; 8-Sep balances differ so mapping rests on the naming only
+504110M1,110 AVS USD,NWM110_A,USD,csh sheet row NWM110 USD; 2087.47 ties exactly on 8-Sep
+504120L1,120 AVS CAD,NWM120_A,CAD,csh sheet row NWM120 CAD; 489816.71 vs 489816.72 on 8-Sep
+504120M1,120 AVS USD,NWM120_A,USD,csh sheet row NWM120 USD; 497779.33 ties exactly on 8-Sep
+00913041/0,120 DESJ USD,NWM120_A,USD,csh sheet row D471 International Leaders Desjardins USD; 1621628.46 ties exactly on 8-Sep
+504241L1,240 AVS CAD,NWM240_A,CAD,Bulk Fees sheet maps NWM240 to 504241L1; 8-Sep balances differ
+504241M1,240 AVS USD,NWM240_A,USD,csh sheet row NWM241 USD; 8-Sep balances differ
+00913850/4,240 DESJ USD,NWM240_A,USD,csh sheet row D552 US Equity Income Desjardins USD; 5886.13 ties exactly on 8-Sep
+527001A1,300 AVS CAD,NWM300_A,CAD,csh sheet row NWM300 CAD; 500286.76 vs 500286.75 on 8-Sep
+527001B1,300 AVS USD,NWM300_A,USD,csh sheet row NWM300 USD; 500985.81 ties exactly on 8-Sep
+00913045/1,300 DESJ USD,NWM300_A,USD,csh sheet row D478 Global Small Cap Desjardins USD; 1915988.83 ties exactly on 8-Sep

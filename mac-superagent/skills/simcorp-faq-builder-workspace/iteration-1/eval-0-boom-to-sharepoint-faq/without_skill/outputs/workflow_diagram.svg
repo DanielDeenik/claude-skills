@@ -1,0 +1,160 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 760" font-family="Calibri, 'Segoe UI', Arial, sans-serif">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#333"/>
+    </marker>
+    <style>
+      .lane { fill:#f4f6f9; stroke:#d0d7e2; stroke-width:1; rx:8; }
+      .lanetitle { font-size:16px; font-weight:700; fill:#fff; }
+      .step { fill:#ffffff; stroke:#2b4a6f; stroke-width:1.5; rx:8; }
+      .stepnum { font-size:12px; font-weight:700; fill:#2b4a6f; }
+      .steptxt { font-size:13px; fill:#1a1a1a; }
+      .shot { font-size:11px; fill:#8a6d00; font-style:italic; }
+      .flow { stroke:#333; stroke-width:2; fill:none; }
+      .note { font-size:12px; fill:#7a1f1f; }
+      .notebox { fill:#fff5f5; stroke:#d99; stroke-width:1; rx:6; }
+    </style>
+  </defs>
+
+  <!-- Title -->
+  <text x="24" y="34" font-size="22" font-weight="700" fill="#1a1a1a">New Issues Workflow (incl. BOOM / Money-Market) — Annotated</text>
+  <text x="24" y="56" font-size="13" fill="#555">Grounded in SimCorp "Simulations in Asset Manager" (Sept 2025). BOOM steps = Bloomberg terminal (vendor side).</text>
+
+  <!-- PHASE 1 lane -->
+  <rect class="lane" x="20" y="76" width="1140" height="188"/>
+  <rect x="20" y="76" width="1140" height="28" rx="8" fill="#2b4a6f"/>
+  <text class="lanetitle" x="34" y="95">PHASE 1 — Create a shell for the new issue  ·  Asset Manager → Create Simulations</text>
+
+  <!-- P1 steps -->
+  <g>
+    <rect class="step" x="34" y="120" width="252" height="120"/>
+    <text class="stepnum" x="46" y="140">STEP 1</text>
+    <text class="steptxt" x="46" y="160">Open a new Create</text>
+    <text class="steptxt" x="46" y="177">Simulations tab; add the</text>
+    <text class="steptxt" x="46" y="194">"New Issue –" columns</text>
+    <text class="steptxt" x="46" y="211">(Select Fields).</text>
+    <text class="shot" x="46" y="231">step1-1</text>
+  </g>
+  <g>
+    <rect class="step" x="316" y="120" width="252" height="120"/>
+    <text class="stepnum" x="328" y="140">STEP 2</text>
+    <text class="steptxt" x="328" y="160">Clone a similar bond:</text>
+    <text class="steptxt" x="328" y="177">enter its ISIN in</text>
+    <text class="steptxt" x="328" y="194">"New Issue – Existing</text>
+    <text class="steptxt" x="328" y="211">Security ID".</text>
+    <text class="shot" x="328" y="231">ISIN defaults to PRIMARY_MARKET</text>
+  </g>
+  <g>
+    <rect class="step" x="598" y="120" width="252" height="120"/>
+    <text class="stepnum" x="610" y="140">STEP 3</text>
+    <text class="steptxt" x="610" y="160">Fill Maturity, Coupon,</text>
+    <text class="steptxt" x="610" y="177">New Issue – Security ID;</text>
+    <text class="steptxt" x="610" y="194">click Save New Issue</text>
+    <text class="steptxt" x="610" y="211">→ preliminary shell.</text>
+    <text class="shot" x="610" y="231">step1-2</text>
+  </g>
+  <g>
+    <rect class="step" x="880" y="120" width="252" height="120"/>
+    <text class="stepnum" x="892" y="140">STEP 4</text>
+    <text class="steptxt" x="892" y="160">Build simulation; TICK</text>
+    <text class="steptxt" x="892" y="177">"Primary market" before</text>
+    <text class="steptxt" x="892" y="194">Create &amp; Release</text>
+    <text class="steptxt" x="892" y="211">(pre-trade compliance).</text>
+    <text class="shot" x="892" y="231">step1-3</text>
+  </g>
+  <line class="flow" x1="286" y1="180" x2="314" y2="180" marker-end="url(#arrow)"/>
+  <line class="flow" x1="568" y1="180" x2="596" y2="180" marker-end="url(#arrow)"/>
+  <line class="flow" x1="850" y1="180" x2="878" y2="180" marker-end="url(#arrow)"/>
+
+  <!-- down arrow P1->P2 -->
+  <line class="flow" x1="1006" y1="240" x2="1006" y2="288" marker-end="url(#arrow)"/>
+  <text x="1016" y="272" font-size="11" fill="#555">release</text>
+
+  <!-- PHASE 2 lane -->
+  <rect class="lane" x="20" y="300" width="1140" height="188"/>
+  <rect x="20" y="300" width="1140" height="28" rx="8" fill="#3a6b4f"/>
+  <text class="lanetitle" x="34" y="319">PHASE 2 — Route to Order Manager &amp; match against Bloomberg  ·  Match Unsolicited Execution</text>
+
+  <g>
+    <rect class="step" x="34" y="344" width="252" height="120"/>
+    <text class="stepnum" x="46" y="364" fill="#3a6b4f">STEP 5</text>
+    <text class="steptxt" x="46" y="384">In Order Manager:</text>
+    <text class="steptxt" x="46" y="401">right-click trade → Accept;</text>
+    <text class="steptxt" x="46" y="418">right-click VCON → Match.</text>
+  </g>
+  <g>
+    <rect class="step" x="316" y="344" width="252" height="120"/>
+    <text class="stepnum" x="328" y="364" fill="#3a6b4f">STEP 6</text>
+    <text class="steptxt" x="328" y="384">Security Selection: pick</text>
+    <text class="steptxt" x="328" y="401">identifier (CUSIP) → Request</text>
+    <text class="steptxt" x="328" y="418">to pull from Bloomberg.</text>
+    <text class="shot" x="328" y="438">step2-1</text>
+  </g>
+  <g>
+    <rect class="step" x="598" y="344" width="252" height="120"/>
+    <text class="stepnum" x="610" y="364" fill="#3a6b4f">STEP 7</text>
+    <text class="steptxt" x="610" y="384">Click Validate — compliance</text>
+    <text class="steptxt" x="610" y="401">check on the TRUE security</text>
+    <text class="steptxt" x="610" y="418">(shell was proxy-checked).</text>
+    <text class="shot" x="610" y="438">step2-2</text>
+  </g>
+  <g>
+    <rect class="step" x="880" y="344" width="252" height="120"/>
+    <text class="stepnum" x="892" y="364" fill="#3a6b4f">STEP 8</text>
+    <text class="steptxt" x="892" y="384">Click Match and Allocate</text>
+    <text class="steptxt" x="892" y="401">→ shell replaced by real</text>
+    <text class="steptxt" x="892" y="418">security; Preliminary flag off.</text>
+  </g>
+  <line class="flow" x1="286" y1="404" x2="314" y2="404" marker-end="url(#arrow)"/>
+  <line class="flow" x1="568" y1="404" x2="596" y2="404" marker-end="url(#arrow)"/>
+  <line class="flow" x1="850" y1="404" x2="878" y2="404" marker-end="url(#arrow)"/>
+
+  <!-- P2 note -->
+  <rect class="notebox" x="34" y="474" width="1098" height="6" opacity="0"/>
+
+  <!-- PHASE 3 lane -->
+  <rect class="lane" x="20" y="524" width="1140" height="188"/>
+  <rect x="20" y="524" width="1140" height="28" rx="8" fill="#8a6d00"/>
+  <text class="lanetitle" x="34" y="543">PHASE 3 — Access to BOOM in UAT (money-market, BETA)  ·  Bloomberg terminal → FIX drop copy to SimCorp</text>
+
+  <g>
+    <rect class="step" x="34" y="568" width="252" height="120"/>
+    <text class="stepnum" x="46" y="588" fill="#8a6d00">STEP 9</text>
+    <text class="steptxt" x="46" y="608">FAXT BETA &lt;GO&gt;; BOOM</text>
+    <text class="steptxt" x="46" y="625">&lt;GO&gt;; 99) Settings →</text>
+    <text class="steptxt" x="46" y="642">DEMO mode ON. See</text>
+    <text class="steptxt" x="46" y="659">programmes + Dealer BBLP.</text>
+    <text class="shot" x="46" y="679">step3-1</text>
+  </g>
+  <g>
+    <rect class="step" x="316" y="568" width="252" height="120"/>
+    <text class="stepnum" x="328" y="588" fill="#8a6d00">STEP 10</text>
+    <text class="steptxt" x="328" y="608">Click a rate (yellow field);</text>
+    <text class="steptxt" x="328" y="625">trade ticket opens; hit</text>
+    <text class="steptxt" x="328" y="642">Submit → auto-accepted.</text>
+    <text class="shot" x="328" y="662">step3-2</text>
+  </g>
+  <g>
+    <rect class="step" x="598" y="568" width="252" height="120"/>
+    <text class="stepnum" x="610" y="588" fill="#8a6d00">STEP 11</text>
+    <text class="steptxt" x="610" y="608">Run BLOT &lt;GO&gt; to see the</text>
+    <text class="steptxt" x="610" y="625">ticket in your blotter;</text>
+    <text class="steptxt" x="610" y="642">click in for detail.</text>
+    <text class="shot" x="610" y="662">step3-3</text>
+  </g>
+  <g>
+    <rect class="step" x="880" y="568" width="252" height="120" fill="#eef4ff"/>
+    <text class="stepnum" x="892" y="588" fill="#2b4a6f">→ SimCorp</text>
+    <text class="steptxt" x="892" y="608">FIX drop copy flows to</text>
+    <text class="steptxt" x="892" y="625">SimCorp as an unsolicited</text>
+    <text class="steptxt" x="892" y="642">execution → handle via</text>
+    <text class="steptxt" x="892" y="659">Phase 2 (Accept/Match).</text>
+  </g>
+  <line class="flow" x1="286" y1="628" x2="314" y2="628" marker-end="url(#arrow)"/>
+  <line class="flow" x1="568" y1="628" x2="596" y2="628" marker-end="url(#arrow)"/>
+  <line class="flow" x1="850" y1="628" x2="878" y2="628" marker-end="url(#arrow)"/>
+
+  <!-- gotchas footer -->
+  <text x="24" y="736" class="note" font-weight="700">Gotcha:</text>
+  <text x="80" y="736" class="note">No ISIN/CUSIP in Bloomberg yet → you cannot Match/Allocate; wait for it. Workaround: manually Capture the trade and fill the ticket from the VCON.</text>
+</svg>

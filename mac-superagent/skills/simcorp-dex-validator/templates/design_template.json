@@ -1,0 +1,13 @@
+{
+  "name": "<client / purpose>",
+  "extractions": [
+    {
+      "id": "E1",
+      "title": "<what this extract is>",
+      "tables": ["table_a", "table_b"],
+      "fields": [["table_a", "FIELD_OR_CEI_NAME"]],
+      "joins": [["child_table","CHILD_COL","parent_table","PARENT_COL"]],
+      "blocked": ["anything you have NOT yet confirmed — the validator will try to resolve it"]
+    }
+  ]
+}

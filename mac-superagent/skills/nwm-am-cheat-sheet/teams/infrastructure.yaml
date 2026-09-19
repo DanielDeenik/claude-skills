@@ -1,0 +1,38 @@
+# Infrastructure cheat sheet config
+# Source values: read directly from Dan's 4 INFRA screenshots (2026-05-27)
+#   per feedback_ui_screenshots_are_source_of_truth memory rule.
+# Truncated columns (#10 Reporting F..., #19 Balan...) DROPPED per Dan's
+# instruction — not worth guessing the full names.
+
+team:
+  key: Infrastructure
+  name: Infrastructure
+
+config:
+  analysis_properties: Infrastructure
+  default_layout: NWM_INFRA_V1.0
+  data_selector: NWM520
+  attribute_columns:
+    - Security Name
+    - Security ID
+    - Asset type
+    - Geography
+    - Currency
+    - Stage
+    - Call In
+    - Base
+    - Management company
+    - Mgr Classification
+    - Size of Investment
+    - Current state of Investment
+    - Vintage
+    - Total Commitment
+    - Unfunded Commitment
+    - Balance nominal/number
+    - Balance commitment QC
+
+screenshots:
+  am_overview: infrastructure_am_overview.jpg       # §2 + §4 (INFRA_LAYOUT.jpg)
+  portfolio_sheet: infrastructure_layout.jpg        # §3 (Portfolio Sheet With Filter.jpg)
+  cash_viewer: infrastructure_cash_viewer.jpg       # §6 (Cash Viewer.jpg — annotation already inside)
+  cash_viewer_options: null                         # no separate Options shot needed

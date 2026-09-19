@@ -1,0 +1,30 @@
+# Private Debt cheat sheet config
+# Source values: NWM Private Debt Configuration Document (verified),
+#                Dan's edit of the Mortgages cheat sheet 2026-05-26 (format)
+# Screenshots:   <workspace>/_AM_FO_TearSheets_2026_05_26/_screenshots/
+
+team:
+  key: PrivateDebt
+  name: Private Debt
+
+config:
+  analysis_properties: Private Debt
+  default_layout: NWM_Private_Debt_V1.0
+  data_selector: Private Debt All
+  attribute_columns:
+    - Investment link
+    - Borrower
+    - Spread
+    - Reference Rate
+    - Day Count
+    - Pricing Source (QUOTE / AT_COST / PAR)
+    - Clean price
+    - Balance funded
+    - Balance unfunded
+    - Accrued interest
+
+screenshots:
+  am_overview: privatedebt_am_overview.jpg          # §2 + §4
+  portfolio_sheet: privatedebt_layout.jpg           # §3
+  cash_viewer: privatedebt_cash_viewer.jpg          # §6
+  cash_viewer_options: null                         # §6 supplementary — no PD shot today

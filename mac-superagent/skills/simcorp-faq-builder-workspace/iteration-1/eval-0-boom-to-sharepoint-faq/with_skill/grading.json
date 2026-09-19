@@ -1,0 +1,39 @@
+{
+  "expectations": [
+    {
+      "text": "Produces a FAQ/SOP markdown deliverable",
+      "passed": true,
+      "evidence": ""
+    },
+    {
+      "text": "Extracts and names the 8 screenshots",
+      "passed": true,
+      "evidence": ""
+    },
+    {
+      "text": "Includes [[IMAGE]] placement markers or manifest",
+      "passed": true,
+      "evidence": ""
+    },
+    {
+      "text": "Grounds steps in Simulations in AM manual sections (2.1.x)",
+      "passed": true,
+      "evidence": "Cited Simulations in AM \u00a72.1.2/2.1.3."
+    },
+    {
+      "text": "Flags the Primary Market vs manual wording drift",
+      "passed": true,
+      "evidence": "Flagged Primary Market vs PRIMARY_MARKET/Preliminary."
+    },
+    {
+      "text": "Includes a mermaid/diagram that parses/renders",
+      "passed": true,
+      "evidence": ""
+    },
+    {
+      "text": "Flags the 3 Bloomberg CID images as unrecoverable",
+      "passed": false,
+      "evidence": "Run claimed 'zero CID images' \u2014 missed the 3 r:link Bloomberg images (buggy script over-trusted)."
+    }
+  ]
+}

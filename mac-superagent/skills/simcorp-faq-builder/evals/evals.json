@@ -1,0 +1,19 @@
+{
+  "skill_name": "simcorp-faq-builder",
+  "evals": [
+    {
+      "id": 0,
+      "name": "boom-to-sharepoint-faq",
+      "prompt": "I've got this Nicola new-issues 'BOOM' workflow doc (a .docx with screenshots). Turn it into a SharePoint-ready FAQ: ground the steps in the SimCorp manuals, pull the screenshots out and map each one to the step it belongs to, and give me a simple workflow diagram. The doc is at UPLOADS/New issues workflow BOOM.docx.",
+      "files": ["New issues workflow BOOM.docx"],
+      "assertions": []
+    },
+    {
+      "id": 1,
+      "name": "screenshots-manifest",
+      "prompt": "Get the screenshots out of this workflow .docx and tell me exactly which screenshot goes at which step, so I can upload them into our SharePoint FAQ page. Doc: UPLOADS/New issues workflow BOOM.docx.",
+      "files": ["New issues workflow BOOM.docx"],
+      "assertions": []
+    }
+  ]
+}

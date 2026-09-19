@@ -1,0 +1,14 @@
+{
+  "eval_id": 0,
+  "eval_name": "boom-to-sharepoint-faq",
+  "prompt": "Turn the Nicola BOOM new-issues .docx into a SharePoint-ready FAQ: ground steps in manuals, extract+map screenshots, give a diagram.",
+  "assertions": [
+    "Produces a FAQ/SOP markdown deliverable",
+    "Extracts and names the 8 screenshots",
+    "Includes [[IMAGE]] placement markers or manifest",
+    "Grounds steps in Simulations in AM manual sections (2.1.x)",
+    "Flags the Primary Market vs manual wording drift",
+    "Includes a mermaid/diagram that parses/renders",
+    "Flags the 3 Bloomberg CID images as unrecoverable"
+  ]
+}

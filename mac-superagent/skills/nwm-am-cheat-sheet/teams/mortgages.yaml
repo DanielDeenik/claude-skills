@@ -1,0 +1,29 @@
+# Mortgages cheat sheet config
+# Source values: Dan's edit of NWM_AM_FO_TearSheet_Mortgages.docx 2026-05-26 14:54 PT
+# Screenshots:   <workspace>/_AM_FO_TearSheets_2026_05_26/_screenshots/
+
+team:
+  key: Mortgages
+  name: Mortgages
+
+config:
+  analysis_properties: Mortgages
+  default_layout: NWM_Mortgages_PM_V1.0
+  data_selector: Mortgages All
+  attribute_columns:
+    - Borrower
+    - Facility Type
+    - Watchlist
+    - Covenant
+    - Debt Strategy
+    - Seniority
+    - Pricing Source
+    - Clean price / value
+    - Balance funded
+    - Balance unfunded
+
+screenshots:
+  am_overview: mortgages_am_overview.jpg            # §2 + §4
+  portfolio_sheet: mortgages_layout.jpg             # §3
+  cash_viewer: mortgages_cash_viewer.jpg            # §6
+  cash_viewer_options: mortgages_cash_viewer_options.jpg  # §6 supplementary

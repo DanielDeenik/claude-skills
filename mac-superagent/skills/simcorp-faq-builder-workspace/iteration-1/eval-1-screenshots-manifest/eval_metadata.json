@@ -1,0 +1,10 @@
+{
+  "eval_id": 1,
+  "eval_name": "screenshots-manifest",
+  "prompt": "Extract the screenshots from the workflow .docx and map each to its step for SharePoint upload.",
+  "assertions": [
+    "Extracts and names the 8 screenshots",
+    "Produces a step->image placement manifest",
+    "Flags the 3 Bloomberg CID images as unrecoverable"
+  ]
+}

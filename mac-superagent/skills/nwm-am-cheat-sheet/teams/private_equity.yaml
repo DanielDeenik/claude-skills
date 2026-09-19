@@ -1,0 +1,36 @@
+# Private Equity cheat sheet config
+# Source values: read directly from Dan's 3 latest PE screenshots (2026-05-29 22:36, 22:40, 22:42)
+#   per feedback_ui_screenshots_are_source_of_truth memory rule.
+# Truncated column #14 (Balance commitm...) DROPPED per Dan's standing rule
+#   for truncated headers.
+
+team:
+  key: PrivateEquity
+  name: Private Equity
+
+config:
+  analysis_properties: Private Equity
+  default_layout: NWM_PE_V1.0
+  data_selector: Private Equity All
+  attribute_columns:
+    - Security type
+    - Asset type
+    - Investment Name
+    - Management company
+    - Geography
+    - Currency
+    - Reporting Frequency
+    - Vintage
+    - Investment Period
+    - Total Commitment
+    - Unfunded Commitment
+    - Stage
+    - Balance nominal/number
+    - Sector
+    - GICS Sector Name
+
+screenshots:
+  am_overview: privateequity_am_overview.jpg       # 2 + 4 (PE and VC Data Selector and Layout.jpg)
+  portfolio_sheet: privateequity_layout.jpg        # 3 (Position Sheet PE.jpg)
+  cash_viewer: privateequity_cash_viewer.jpg       # 6 (PE Cash Viewer To USe.jpg)
+  cash_viewer_options: null                        # no Options annotation in the latest 3
